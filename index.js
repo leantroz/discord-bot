@@ -18,73 +18,95 @@ client.once('ready', () => {
 client.on('interactionCreate', async (interaction) => {
   if (!interaction.isChatInputCommand()) return;
 
+  // =========================
+  // CREAR INSCRIPCIONES
+  // =========================
   if (interaction.commandName === 'inscripciones') {
-  const titulo = interaction.options.getString('titulo');
-  const cantidad = interaction.options.getInteger('cantidad');
-  const rolesInput = interaction.options.getString('roles').split(",");
-  const tagRol = interaction.options.getRole('tag');
-  const timestampCode = interaction.options.getString('timestamp');
-  const nota = interaction.options.getString('nota'); // ✅ nueva opción
+    const titulo = interaction.options.getString('titulo');
+    const cantidad = interaction.options.getInteger('cantidad');
+    const rolesInput = interaction.options.getString('roles').split(",");
+    const tagRol = interaction.options.getRole('tag');
+    const timestampCode = interaction.options.getString('timestamp');
+    const nota = interaction.options.getString('nota');
 
-  if (rolesInput.length !== cantidad) {
-    return interaction.reply("La cantidad de roles no coincide con el número indicado.");
+    if (rolesInput.length !== cantidad) {
+      return interaction.reply("La cantidad de roles no coincide con el número indicado.");
+    }
+
+    let listaRoles = {};
+    rolesInput.forEach((rol, i) => listaRoles[i+1] = rol.trim());
+
+    let descripcion = "";
+    if (timestampCode) descripcion += `${timestampCode}\n`;
+    if (nota) descripcion += `**${nota}**\n\n`;
+    descripcion += Object.entries(listaRoles)
+      .map(([num, rol]) => `${num}. ${rol} - (vacante)`)
+      .join("\n");
+
+    const embed = new EmbedBuilder()
+      .setTitle(titulo)
+      .setDescription(descripcion)
+      .setFooter({ text: "Si queres cambiar de rol y ya estás inscripto en otro, liberalo primero escribiendo: 'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2'." });
+
+    const content = tagRol ? `<@&${tagRol.id}>` : null;
+
+    const sentMessage = await interaction.reply({
+      content,
+      embeds: [embed],
+      fetchReply: true,
+      allowedMentions: { roles: tagRol ? [tagRol.id] : [] }
+    });
+
+    await sentMessage.startThread({ name: "Inscripciones", autoArchiveDuration: 60 });
+
+    inscripciones[sentMessage.id] = { 
+      titulo,
+      roles: listaRoles, 
+      jugadores: {}, 
+      creador: interaction.user.id, 
+      cerrado: false,
+      timestamp: timestampCode,
+      nota
+    };
   }
 
-  let listaRoles = {};
-  rolesInput.forEach((rol, i) => listaRoles[i+1] = rol.trim());
+  // =========================
+  // EDITAR INSCRIPCIONES
+  // =========================
+  if (interaction.commandName === 'editar_inscripcion') {
+    const mensajeId = interaction.options.getString('mensaje_id');
+    const nuevoTitulo = interaction.options.getString('titulo');
+    const nuevoTimestamp = interaction.options.getString('timestamp');
+    const nuevaNota = interaction.options.getString('nota');
+    const rolesInput = interaction.options.getString('roles');
+    const cantidad = interaction.options.getInteger('cantidad');
 
-  // ✅ Armamos la descripción en orden: timestamp → nota → lista
-  let descripcion = "";
+    const insc = inscripciones[mensajeId];
+    if (!insc) return interaction.reply("No encontré esa inscripción.");
+    if (interaction.user.id !== insc.creador) {
+      return interaction.reply("Solo el creador puede editar esta inscripción.");
+    }
 
-  if (timestampCode) {
-    descripcion += `${timestampCode}\n`;
+    // Actualizar datos
+    if (nuevoTitulo) insc.titulo = nuevoTitulo;
+    if (nuevoTimestamp) insc.timestamp = nuevoTimestamp;
+    if (nuevaNota) insc.nota = nuevaNota;
+    if (rolesInput && cantidad) {
+      const rolesArray = rolesInput.split(",");
+      if (rolesArray.length !== cantidad) {
+        return interaction.reply("La cantidad de roles no coincide con el número indicado.");
+      }
+      insc.roles = {};
+      rolesArray.forEach((rol, i) => insc.roles[i+1] = rol.trim());
+    }
+
+    await actualizarEmbed(await interaction.channel.messages.fetch(mensajeId), insc);
+    return interaction.reply("Inscripción actualizada.");
   }
 
-  if (nota) {
-    descripcion += `**${nota}**\n\n`;
-  }
-
-  descripcion += Object.entries(listaRoles)
-    .map(([num, rol]) => `${num}. ${rol} - (vacante)`)
-    .join("\n");
-
-  const embed = new EmbedBuilder()
-    .setTitle(titulo)
-    .setDescription(descripcion)
-    .setFooter({ text: "Si queres cambiar de rol y ya estás inscripto en otro, liberalo primero escribiendo: 'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2'." });
-
-  const content = tagRol ? `<@&${tagRol.id}>` : null;
-
-  const sentMessage = await interaction.reply({
-    content,
-    embeds: [embed],
-    fetchReply: true,
-    allowedMentions: { roles: tagRol ? [tagRol.id] : [] }
-  });
-
-  await sentMessage.startThread({ name: "Inscripciones", autoArchiveDuration: 60 });
-
-  inscripciones[sentMessage.id] = { 
-    roles: listaRoles, 
-    jugadores: {}, 
-    creador: interaction.user.id, 
-    cerrado: false
-  };
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  // =========================
+  // RESET / CERRAR / REABRIR
+  // =========================
   if (interaction.commandName === 'reset') {
     const thread = interaction.channel;
     if (!thread.isThread()) return interaction.reply("Este comando solo funciona dentro del hilo de inscripciones.");
@@ -111,17 +133,16 @@ client.on('interactionCreate', async (interaction) => {
   }
 
   if (interaction.commandName === 'reabrir') {
-  const thread = interaction.channel;
-  if (!thread.isThread()) return interaction.reply("Este comando solo funciona dentro del hilo de inscripciones.");
-  const parentMessage = await thread.fetchStarterMessage();
-  const data = inscripciones[parentMessage.id];
-  if (!data) return interaction.reply("No hay inscripciones activas.");
-  if (interaction.user.id !== data.creador) return interaction.reply("Solo el creador puede reabrir la lista.");
+    const thread = interaction.channel;
+    if (!thread.isThread()) return interaction.reply("Este comando solo funciona dentro del hilo de inscripciones.");
+    const parentMessage = await thread.fetchStarterMessage();
+    const data = inscripciones[parentMessage.id];
+    if (!data) return interaction.reply("No hay inscripciones activas.");
+    if (interaction.user.id !== data.creador) return interaction.reply("Solo el creador puede reabrir la lista.");
 
-  data.cerrado = false;
-  return interaction.reply("La lista ha sido reabierta. Ya se aceptan inscripciones nuevamente.");
-}
-
+    data.cerrado = false;
+    return interaction.reply("La lista ha sido reabierta. Ya se aceptan inscripciones nuevamente.");
+  }
 });
 
 client.on('messageCreate', async (message) => {
@@ -144,43 +165,43 @@ client.on('messageCreate', async (message) => {
       }
     }
 
-// Inscripción
+    // Inscripción
     const numero = parseInt(contenido);
-
-    if (!isNaN(numero)) {   //  Solo procesar si es un número
-        if (data.roles[numero]) {
+    if (!isNaN(numero)) {
+      if (data.roles[numero]) {
         if (data.jugadores[numero]) {
-      return message.reply("Ese lugar ya está ocupado.");
-    }
-
-    const yaInscripto = Object.values(data.jugadores).find(u => u.id === message.author.id);
+          return message.reply("Ese lugar ya está ocupado.");
+        }
+        const yaInscripto = Object.values(data.jugadores).find(u => u.id === message.author.id);
         if (yaInscripto) {
-      return message.reply("Ya estás inscripto en otro rol. Liberalo primero escribiendo:'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2' si querés cambiar.");
+          return message.reply("Ya estás inscripto en otro rol. Liberalo primero escribiendo:'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2' si querés cambiar.");
+        }
+        data.jugadores[numero] = message.author;
+        await actualizarEmbed(parentMessage, data);
+        return message.reply(`Te inscribiste en el lugar ${numero}.`);
+      } else {
+        return message.reply("Por favor, inscribite en un rol válido");
+      }
     }
-
-    data.jugadores[numero] = message.author;
-    await actualizarEmbed(parentMessage, data);
-    return message.reply(`Te inscribiste en el lugar ${numero}.`);
-  } else {
-    return message.reply("Por favor, inscribite en un rol válido");
-  }
-}
-
   }
 });
 
 async function actualizarEmbed(parentMessage, data) {
+  let descripcion = "";
+  if (data.timestamp) descripcion += `${data.timestamp}\n`;
+  if (data.nota) descripcion += `**${data.nota}**\n\n`;
+  descripcion += Object.entries(data.roles)
+    .map(([num, rol]) => {
+      const jugador = data.jugadores[num];
+      return `${num}. ${rol} - ${jugador ? `<@${jugador.id}>` : "(vacante)"}`;
+    }).join("\n");
+
   const embed = new EmbedBuilder()
-    .setTitle("Inscripciones")
-    .setDescription(Object.entries(data.roles)
-      .map(([num, rol]) => {
-        const jugador = data.jugadores[num];
-        return `${num}. ${rol} - ${jugador ? `<@${jugador.id}>` : "(vacante)"}`;
-      }).join("\n"))
+    .setTitle(data.titulo || "Inscripciones")
+    .setDescription(descripcion)
     .setFooter({ text: "Si queres cambiar de rol y ya estás inscripto en otro, liberalo primero escribiendo: 'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2'." });
 
   await parentMessage.edit({ embeds: [embed] });
 }
-
 
 client.login(process.env.TOKEN);
