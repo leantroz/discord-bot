@@ -202,13 +202,13 @@ client.on('messageCreate', async (message) => {
 
 async function actualizarEmbed(parentMessage, data) {
   let descripcion = "";
-  if (data.timestamp) descripcion += `${data.timestamp}\n`;
+  if (data.timestamp) descripcion += `**${data.timestamp}**\n`;
   if (data.nota) descripcion += `**${data.nota}**\n\n`;
 
     descripcion += Object.entries(data.roles)
   .map(([num, rol]) => {
     const jugador = data.jugadores[num];
-    return `${num}. ${rol} - ${jugador ? `<@${jugador.id}>` : "(vacante)"}`;
+    return `**${num}. ${rol} - ${jugador ? `<@${jugador.id}>` : "(vacante)"}**`;
   }).join("\n");
 
   if (data.notaInferior) {
