@@ -23,7 +23,8 @@ client.on('interactionCreate', async (interaction) => {
   const cantidad = interaction.options.getInteger('cantidad');
   const rolesInput = interaction.options.getString('roles').split(",");
   const tagRol = interaction.options.getRole('tag');
-  const timestampCode = interaction.options.getString('timestamp'); // ✅ nueva opción
+  const timestampCode = interaction.options.getString('timestamp');
+  const nota = interaction.options.getString('nota'); // ✅ nueva opción
 
   if (rolesInput.length !== cantidad) {
     return interaction.reply("La cantidad de roles no coincide con el número indicado.");
@@ -32,24 +33,26 @@ client.on('interactionCreate', async (interaction) => {
   let listaRoles = {};
   rolesInput.forEach((rol, i) => listaRoles[i+1] = rol.trim());
 
-  // Construimos la descripción
   let descripcion = Object.entries(listaRoles)
     .map(([num, rol]) => `${num}. ${rol} - (vacante)`)
     .join("\n");
 
-  // Armamos el embed
   const embed = new EmbedBuilder()
     .setTitle(titulo)
     .setFooter({ text: "Si queres cambiar de rol y ya estás inscripto en otro, liberalo primero escribiendo: 'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2'." });
 
-  // ✅ Si el usuario pasó un timestamp, lo mostramos debajo del título
+  // ✅ Timestamp opcional
   if (timestampCode) {
-    embed.setDescription(`${timestampCode}\n\n${descripcion}`);
-  } else {
-    embed.setDescription(descripcion);
+    descripcion = `${timestampCode}\n\n${descripcion}`;
   }
 
-  // ✅ Mención activa arriba del embed
+  // ✅ Nota opcional en negrita antes del footer
+  if (nota) {
+    descripcion = `${descripcion}\n\n**${nota}**`;
+  }
+
+  embed.setDescription(descripcion);
+
   const content = tagRol ? `Rol mencionado: <@&${tagRol.id}>` : null;
 
   const sentMessage = await interaction.reply({
@@ -68,6 +71,7 @@ client.on('interactionCreate', async (interaction) => {
     cerrado: false
   };
 }
+
 
 
 

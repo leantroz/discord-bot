@@ -24,7 +24,11 @@ const commands = [
     .addStringOption(option =>
       option.setName('timestamp')
         .setDescription('Código de timestamp de Discord, ej: <t:1777849200:R>')
-        .setRequired(false)),
+        .setRequired(false))
+        .addStringOption(option =>
+  option.setName('nota')
+    .setDescription('Texto adicional antes del footer (se mostrará en negrita)')
+    .setRequired(false)),
 
   new SlashCommandBuilder()
     .setName('reset')
