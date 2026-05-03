@@ -33,25 +33,25 @@ client.on('interactionCreate', async (interaction) => {
   let listaRoles = {};
   rolesInput.forEach((rol, i) => listaRoles[i+1] = rol.trim());
 
-  let descripcion = Object.entries(listaRoles)
+  // ✅ Armamos la descripción en orden: timestamp → nota → lista
+  let descripcion = "";
+
+  if (timestampCode) {
+    descripcion += `${timestampCode}\n`;
+  }
+
+  if (nota) {
+    descripcion += `**${nota}**\n\n`;
+  }
+
+  descripcion += Object.entries(listaRoles)
     .map(([num, rol]) => `${num}. ${rol} - (vacante)`)
     .join("\n");
 
   const embed = new EmbedBuilder()
     .setTitle(titulo)
+    .setDescription(descripcion)
     .setFooter({ text: "Si queres cambiar de rol y ya estás inscripto en otro, liberalo primero escribiendo: 'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2'." });
-
-  // ✅ Timestamp opcional
-  if (timestampCode) {
-    descripcion = `${timestampCode}\n\n${descripcion}`;
-  }
-
-  // ✅ Nota opcional en negrita antes del footer
-  if (nota) {
-    descripcion = `${descripcion}\n\n**${nota}**`;
-  }
-
-  embed.setDescription(descripcion);
 
   const content = tagRol ? `Rol mencionado: <@&${tagRol.id}>` : null;
 
@@ -71,6 +71,7 @@ client.on('interactionCreate', async (interaction) => {
     cerrado: false
   };
 }
+
 
 
 
