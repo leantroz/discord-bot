@@ -44,7 +44,7 @@ client.on('interactionCreate', async (interaction) => {
 
     descripcion += Object.entries(listaRoles)
   .map(([num, rol]) => `**${num}. ${rol} - (vacante)**`)
-  .join("\n");
+  .join("");
 
 //  Nota inferior justo arriba del footer
     if (notaInferior) {
@@ -209,7 +209,7 @@ async function actualizarEmbed(parentMessage, data) {
   .map(([num, rol]) => {
     const jugador = data.jugadores[num];
     return `**${num}. ${rol} - ${jugador ? `<@${jugador.id}>` : "(vacante)"}**`;
-  }).join("\n");
+  }).join("");
 
   if (data.notaInferior) {
     descripcion += `\n\n**${data.notaInferior}**`;
