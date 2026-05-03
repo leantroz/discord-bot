@@ -27,7 +27,9 @@ client.on('interactionCreate', async (interaction) => {
     const rolesInput = interaction.options.getString('roles').split(",");
     const tagRol = interaction.options.getRole('tag');
     const timestampCode = interaction.options.getString('timestamp');
-    const nota = interaction.options.getString('nota');
+    const nota = interaction.options.getString('nota'); // nota superior
+  const notaInferior = interaction.options.getString('nota_inferior'); // nota inferior
+
 
     if (rolesInput.length !== cantidad) {
       return interaction.reply("La cantidad de roles no coincide con el número indicado.");
@@ -37,11 +39,18 @@ client.on('interactionCreate', async (interaction) => {
     rolesInput.forEach((rol, i) => listaRoles[i+1] = rol.trim());
 
     let descripcion = "";
-    if (timestampCode) descripcion += `${timestampCode}\n`;
-    if (nota) descripcion += `**${nota}**\n\n`;
+  if (timestampCode) descripcion += `${timestampCode}\n`;
+  if (nota) descripcion += `**${nota}**\n\n`;
+
     descripcion += Object.entries(listaRoles)
-      .map(([num, rol]) => `${num}. ${rol} - (vacante)`)
-      .join("\n");
+  .map(([num, rol]) => `${num}. ${rol} - (vacante)`)
+  .join("\n");
+
+//  Nota inferior justo arriba del footer
+    if (notaInferior) {
+    descripcion += `\n\n**${notaInferior}**`;
+}
+
 
     const embed = new EmbedBuilder()
       .setTitle(titulo)
@@ -60,14 +69,16 @@ client.on('interactionCreate', async (interaction) => {
     await sentMessage.startThread({ name: "Inscripciones", autoArchiveDuration: 60 });
 
     inscripciones[sentMessage.id] = { 
-      titulo,
-      roles: listaRoles, 
-      jugadores: {}, 
-      creador: interaction.user.id, 
-      cerrado: false,
-      timestamp: timestampCode,
-      nota
-    };
+     titulo,
+    roles: listaRoles, 
+    jugadores: {}, 
+    creador: interaction.user.id, 
+    cerrado: false,
+    timestamp: timestampCode,
+    nota,
+    notaInferior
+};
+
   }
 
   // =========================
@@ -190,11 +201,16 @@ async function actualizarEmbed(parentMessage, data) {
   let descripcion = "";
   if (data.timestamp) descripcion += `${data.timestamp}\n`;
   if (data.nota) descripcion += `**${data.nota}**\n\n`;
-  descripcion += Object.entries(data.roles)
-    .map(([num, rol]) => {
-      const jugador = data.jugadores[num];
-      return `${num}. ${rol} - ${jugador ? `<@${jugador.id}>` : "(vacante)"}`;
-    }).join("\n");
+
+    descripcion += Object.entries(data.roles)
+  .map(([num, rol]) => {
+    const jugador = data.jugadores[num];
+    return `${num}. ${rol} - ${jugador ? `<@${jugador.id}>` : "(vacante)"}`;
+  }).join("\n");
+
+  if (data.notaInferior) {
+    descripcion += `\n\n**${data.notaInferior}**`;
+}
 
   const embed = new EmbedBuilder()
     .setTitle(data.titulo || "Inscripciones")
