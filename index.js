@@ -38,27 +38,22 @@ client.on('interactionCreate', async (interaction) => {
     let listaRoles = {};
     rolesInput.forEach((rol, i) => listaRoles[i+1] = rol.trim());
 
-    const embed = new EmbedBuilder()
-      .setTitle(titulo)
-      .setFooter({ text: "Si queres cambiar de rol y ya estás inscripto en otro, liberalo primero escribiendo: 'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2'." });
+    let fieldValue = "";
+    if (timestampCode) fieldValue += `**${timestampCode}**\n`;
+    if (nota) fieldValue += `**${nota}**\n`;
 
-    if (timestampCode) {
-      embed.addFields({ name: "\u200B", value: `**${timestampCode}**` });
-    }
-
-    if (nota) {
-      embed.addFields({ name: "\u200B", value: `**${nota}**` });
-    }
-
-    const rolesText = Object.entries(listaRoles)
+    fieldValue += Object.entries(listaRoles)
       .map(([num, rol]) => `**${num}. ${rol} - (vacante)**`)
       .join("\n");
 
-    embed.addFields({ name: "\u200B", value: rolesText });
-
     if (notaInferior) {
-      embed.addFields({ name: "\u200B", value: `**${notaInferior}**` });
+      fieldValue += `\n**${notaInferior}**`;
     }
+
+    const embed = new EmbedBuilder()
+      .setTitle(titulo)
+      .addFields({ name: "\u200B", value: fieldValue })
+      .setFooter({ text: "Si queres cambiar de rol y ya estás inscripto en otro, liberalo primero escribiendo: 'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2'." });
 
     const content = tagRol ? `<@&${tagRol.id}>` : null;
 
@@ -204,29 +199,24 @@ client.on('messageCreate', async (message) => {
 });
 
 async function actualizarEmbed(parentMessage, data) {
-  const embed = new EmbedBuilder()
-    .setTitle(data.titulo || "Inscripciones")
-    .setFooter({ text: "Si queres cambiar de rol y ya estás inscripto en otro, liberalo primero escribiendo: 'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2'." });
+  let fieldValue = "";
+  if (data.timestamp) fieldValue += `**${data.timestamp}**\n`;
+  if (data.nota) fieldValue += `**${data.nota}**\n`;
 
-  if (data.timestamp) {
-    embed.addFields({ name: "\u200B", value: `**${data.timestamp}**` });
-  }
-
-  if (data.nota) {
-    embed.addFields({ name: "\u200B", value: `**${data.nota}**` });
-  }
-
-  const rolesText = Object.entries(data.roles)
+  fieldValue += Object.entries(data.roles)
     .map(([num, rol]) => {
       const jugador = data.jugadores[num];
       return `**${num}. ${rol} - ${jugador ? `<@${jugador.id}>` : "(vacante)"}**`;
     }).join("\n");
 
-  embed.addFields({ name: "\u200B", value: rolesText });
-
   if (data.notaInferior) {
-    embed.addFields({ name: "\u200B", value: `**${data.notaInferior}**` });
+    fieldValue += `\n**${data.notaInferior}**`;
   }
+
+  const embed = new EmbedBuilder()
+    .setTitle(data.titulo || "Inscripciones")
+    .addFields({ name: "\u200B", value: fieldValue })
+    .setFooter({ text: "Si queres cambiar de rol y ya estás inscripto en otro, liberalo primero escribiendo: 'Liberar + (Numero que queros liberar) Ejemplo: Liberar 2'." });
 
   await parentMessage.edit({ embeds: [embed] });
 }
