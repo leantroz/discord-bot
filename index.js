@@ -86,34 +86,37 @@ client.on('interactionCreate', async (interaction) => {
   // =========================
   if (interaction.commandName === 'editar_inscripcion') {
     const mensajeId = interaction.options.getString('mensaje_id');
-    const nuevoTitulo = interaction.options.getString('titulo');
-    const nuevoTimestamp = interaction.options.getString('timestamp');
-    const nuevaNota = interaction.options.getString('nota');
-    const rolesInput = interaction.options.getString('roles');
-    const cantidad = interaction.options.getInteger('cantidad');
+     const nuevoTitulo = interaction.options.getString('titulo');
+     const nuevoTimestamp = interaction.options.getString('timestamp');
+     const nuevaNota = interaction.options.getString('nota');
+      const nuevaNotaInferior = interaction.options.getString('nota_inferior'); // ✅ nueva opción
+     const rolesInput = interaction.options.getString('roles');
+     const cantidad = interaction.options.getInteger('cantidad');
 
-    const insc = inscripciones[mensajeId];
-    if (!insc) return interaction.reply("No encontré esa inscripción.");
-    if (interaction.user.id !== insc.creador) {
-      return interaction.reply("Solo el creador puede editar esta inscripción.");
-    }
-
-    // Actualizar datos
-    if (nuevoTitulo) insc.titulo = nuevoTitulo;
-    if (nuevoTimestamp) insc.timestamp = nuevoTimestamp;
-    if (nuevaNota) insc.nota = nuevaNota;
-    if (rolesInput && cantidad) {
-      const rolesArray = rolesInput.split(",");
-      if (rolesArray.length !== cantidad) {
-        return interaction.reply("La cantidad de roles no coincide con el número indicado.");
-      }
-      insc.roles = {};
-      rolesArray.forEach((rol, i) => insc.roles[i+1] = rol.trim());
-    }
-
-    await actualizarEmbed(await interaction.channel.messages.fetch(mensajeId), insc);
-    return interaction.reply("Inscripción actualizada.");
+     const insc = inscripciones[mensajeId];
+  if (!insc) return interaction.reply("No encontré esa inscripción.");
+  if (interaction.user.id !== insc.creador) {
+    return interaction.reply("Solo el creador puede editar esta inscripción.");
   }
+
+  // Actualizar datos
+  if (nuevoTitulo) insc.titulo = nuevoTitulo;
+  if (nuevoTimestamp) insc.timestamp = nuevoTimestamp;
+  if (nuevaNota) insc.nota = nuevaNota;
+  if (nuevaNotaInferior) insc.notaInferior = nuevaNotaInferior; // ✅ actualiza nota inferior
+  if (rolesInput && cantidad) {
+    const rolesArray = rolesInput.split(",");
+    if (rolesArray.length !== cantidad) {
+      return interaction.reply("La cantidad de roles no coincide con el número indicado.");
+    }
+    insc.roles = {};
+    rolesArray.forEach((rol, i) => insc.roles[i+1] = rol.trim());
+  }
+
+  await actualizarEmbed(await interaction.channel.messages.fetch(mensajeId), insc);
+  return interaction.reply("Inscripción actualizada.");
+}
+
 
   // =========================
   // RESET / CERRAR / REABRIR
