@@ -41,9 +41,9 @@ client.on('interactionCreate', async (interaction) => {
     const descriptionLines = [];
     if (timestampCode) descriptionLines.push(`**${timestampCode}**`);
     if (nota) descriptionLines.push(`**${nota}**`);
-    if (timestampCode || nota) descriptionLines.push("");
+    if (timestampCode || nota) descriptionLines.push("", "");
     descriptionLines.push(...Object.entries(listaRoles)
-      .map(([num, rol]) => `**${num}. ${rol} - (vacante)**`));
+      .map(([num, rol]) => `**${num}. ${rol} - (Vacante)**`));
     if (notaInferior) descriptionLines.push("", `**${notaInferior}**`);
 
     const embed = new EmbedBuilder()
@@ -199,11 +199,11 @@ async function actualizarEmbed(parentMessage, data) {
   const descriptionLines = [];
   if (data.timestamp) descriptionLines.push(`**${data.timestamp}**`);
   if (data.nota) descriptionLines.push(`**${data.nota}**`);
-  if (data.timestamp || data.nota) descriptionLines.push("");
+  if (data.timestamp || data.nota) descriptionLines.push("", "");
   descriptionLines.push(...Object.entries(data.roles)
     .map(([num, rol]) => {
       const jugador = data.jugadores[num];
-      return `**${num}. ${rol} - ${jugador ? `<@${jugador.id}>` : "(vacante)"}**`;
+      return `**${num}. ${rol} - ${jugador ? `<@${jugador.id}>` : "(Vacante)"}**`;
     }));
   if (data.notaInferior) descriptionLines.push("", `**${data.notaInferior}**`);
 
