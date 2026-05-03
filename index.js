@@ -53,7 +53,7 @@ client.on('interactionCreate', async (interaction) => {
     .setDescription(descripcion)
     .setFooter({ text: "Si queres cambiar de rol y ya estás inscripto en otro, liberalo primero escribiendo: 'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2'." });
 
-  const content = tagRol ? `Rol mencionado: <@&${tagRol.id}>` : null;
+  const content = tagRol ? `<@&${tagRol.id}>` : null;
 
   const sentMessage = await interaction.reply({
     content,
