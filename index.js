@@ -40,19 +40,20 @@ client.on('interactionCreate', async (interaction) => {
 
     let fieldValue = "";
     if (timestampCode) fieldValue += `**${timestampCode}**\n`;
-    if (nota) fieldValue += `**${nota}**\n`;
+    if (nota) fieldValue += `**${nota}**`;
+    if (timestampCode || nota) fieldValue += "\n";
 
     fieldValue += Object.entries(listaRoles)
       .map(([num, rol]) => `**${num}. ${rol} - (vacante)**`)
       .join("\n");
 
     if (notaInferior) {
-      fieldValue += `\n**${notaInferior}**`;
+      fieldValue += `\n\n**${notaInferior}**`;
     }
 
     const embed = new EmbedBuilder()
       .setTitle(titulo)
-      .addFields({ name: "\u200B", value: fieldValue })
+      .setDescription(fieldValue)
       .setFooter({ text: "Si queres cambiar de rol y ya estás inscripto en otro, liberalo primero escribiendo: 'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2'." });
 
     const content = tagRol ? `<@&${tagRol.id}>` : null;
@@ -201,7 +202,8 @@ client.on('messageCreate', async (message) => {
 async function actualizarEmbed(parentMessage, data) {
   let fieldValue = "";
   if (data.timestamp) fieldValue += `**${data.timestamp}**\n`;
-  if (data.nota) fieldValue += `**${data.nota}**\n`;
+  if (data.nota) fieldValue += `**${data.nota}**`;
+  if (data.timestamp || data.nota) fieldValue += "\n";
 
   fieldValue += Object.entries(data.roles)
     .map(([num, rol]) => {
@@ -210,12 +212,12 @@ async function actualizarEmbed(parentMessage, data) {
     }).join("\n");
 
   if (data.notaInferior) {
-    fieldValue += `\n**${data.notaInferior}**`;
+    fieldValue += `\n\n**${data.notaInferior}**`;
   }
 
   const embed = new EmbedBuilder()
     .setTitle(data.titulo || "Inscripciones")
-    .addFields({ name: "\u200B", value: fieldValue })
+    .setDescription(fieldValue)
     .setFooter({ text: "Si queres cambiar de rol y ya estás inscripto en otro, liberalo primero escribiendo: 'Liberar + (Numero que queros liberar) Ejemplo: Liberar 2'." });
 
   await parentMessage.edit({ embeds: [embed] });
