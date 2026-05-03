@@ -50,7 +50,7 @@ client.on('interactionCreate', async (interaction) => {
       .setTitle(titulo)
       .setColor(0x1F8BFF)
       .setDescription(descriptionLines.join("\n"))
-      .setFooter({ text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X(Numero que escogiste)'. Si queres cambiar de rol y ya estás inscripto en otro, liberalo primero escribiendo: 'Liberar + (Numero que queros liberar) Ejemplo: Liberar 2'." });
+      .setFooter({ text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X(Numero que escogiste)'." });
 
     const content = tagRol ? `<@&${tagRol.id}>` : null;
 
