@@ -39,8 +39,8 @@ client.on('interactionCreate', async (interaction) => {
     rolesInput.forEach((rol, i) => listaRoles[i+1] = rol.trim());
 
     let descripcion = "";
-  if (timestampCode) descripcion += `**${timestampCode}**\n\n`;
-  if (nota) descripcion += `**${nota}**\n\n\n`;
+  if (timestampCode) descripcion += `**${timestampCode}**\n`;
+  if (nota) descripcion += `**${nota}**\n\n`;
 
     descripcion += Object.entries(listaRoles)
   .map(([num, rol]) => `**${num}. ${rol} - (vacante)**`)
@@ -48,7 +48,7 @@ client.on('interactionCreate', async (interaction) => {
 
 //  Nota inferior justo arriba del footer
     if (notaInferior) {
-    descripcion += `\n\n\n**${notaInferior}**`;
+    descripcion += `\n\n**${notaInferior}**`;
 }
 
 
@@ -202,8 +202,8 @@ client.on('messageCreate', async (message) => {
 
 async function actualizarEmbed(parentMessage, data) {
   let descripcion = "";
-  if (data.timestamp) descripcion += `**${data.timestamp}**\n\n`;
-  if (data.nota) descripcion += `**${data.nota}**\n\n\n`;
+  if (data.timestamp) descripcion += `**${data.timestamp}**\n`;
+  if (data.nota) descripcion += `**${data.nota}**\n\n`;
 
     descripcion += Object.entries(data.roles)
   .map(([num, rol]) => {
@@ -212,7 +212,7 @@ async function actualizarEmbed(parentMessage, data) {
   }).join("\n");
 
   if (data.notaInferior) {
-    descripcion += `\n\n\n**${data.notaInferior}**`;
+    descripcion += `\n\n**${data.notaInferior}**`;
 }
 
   const embed = new EmbedBuilder()
