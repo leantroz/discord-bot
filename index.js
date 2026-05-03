@@ -39,11 +39,11 @@ client.on('interactionCreate', async (interaction) => {
     rolesInput.forEach((rol, i) => listaRoles[i+1] = rol.trim());
 
     let descripcion = "";
-  if (timestampCode) descripcion += `${timestampCode}\n`;
+  if (timestampCode) descripcion += `**${timestampCode}**\n`;
   if (nota) descripcion += `**${nota}**\n\n`;
 
     descripcion += Object.entries(listaRoles)
-  .map(([num, rol]) => `${num}. ${rol} - (vacante)`)
+  .map(([num, rol]) => `**${num}. ${rol} - (vacante)**`)
   .join("\n");
 
 //  Nota inferior justo arriba del footer
