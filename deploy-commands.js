@@ -28,7 +28,11 @@ const commands = [
     .addStringOption(option =>
       option.setName('nota')
         .setDescription('Texto adicional antes del footer (se mostrará en negrita)')
-        .setRequired(false)),
+        .setRequired(false))
+        .addStringOption(option =>
+  option.setName('nota_inferior')
+    .setDescription('Texto adicional en negrita arriba del footer')
+    .setRequired(false)),
 
   new SlashCommandBuilder()
     .setName('reset')
