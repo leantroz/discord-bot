@@ -66,16 +66,11 @@ client.on('interactionCreate', async (interaction) => {
       { name: 'Estado', value: `**${estado}**`, inline: true },
       { name: '\u200B', value: '\u200B', inline: true },
       { name: 'Cupos', value: `**${occupied}/${totalRoles}**`, inline: true },
-      { name: '\u200B', value: '\u200B', inline: false },
       { name: '\u200B', value: Object.entries(listaRoles)
         .map(([num, rol]) => `${num}. **${rol.toUpperCase()} - (Vacante)**`).join("\n"), inline: false },
     );
     if (notaInferior) {
-      embed.addFields({ name: '\u200B', value: '\u200B', inline: false });
       embed.addFields({ name: '\u200B', value: `**${notaInferior}**`, inline: false });
-      embed.addFields(
-        { name: '\u200B', value: '\u200B', inline: false }
-      );
     }
 
     const content = tagRol ? `<@&${tagRol.id}>` : null;
@@ -255,7 +250,6 @@ async function actualizarEmbed(parentMessage, data) {
     { name: 'Estado', value: `**${estado}**`, inline: true },
     { name: '\u200B', value: '\u200B', inline: true },
     { name: 'Cupos', value: `**${occupied}/${totalRoles}**`, inline: true },
-    { name: '\u200B', value: '\u200B', inline: false },
     { name: '\u200B', value: Object.entries(data.roles)
       .map(([num, rol]) => {
         const jugador = data.jugadores[num];
@@ -263,11 +257,7 @@ async function actualizarEmbed(parentMessage, data) {
       }).join("\n"), inline: false },
   );
   if (data.notaInferior) {
-    embed.addFields({ name: '\u200B', value: '\u200B', inline: false });
     embed.addFields({ name: '\u200B', value: `**${data.notaInferior}**`, inline: false });
-    embed.addFields(
-      { name: '\u200B', value: '\u200B', inline: false }
-    );
   }
 
   await parentMessage.edit({ embeds: [embed] });
