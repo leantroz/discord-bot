@@ -56,7 +56,7 @@ client.on('interactionCreate', async (interaction) => {
     if (nota) descriptionLines.push("");
 
     const embed = new EmbedBuilder()
-      .setTitle(titulo)
+      .setTitle(`\u200B${titulo}\u200B`)
       .setColor(0x1F8BFF)
       .setDescription(descriptionLines.join("\n"))
       .setFooter({ text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X(Numero que escogiste)'." });
@@ -247,7 +247,7 @@ async function actualizarEmbed(parentMessage, data) {
   if (data.nota) descriptionLines.push("");
 
   const embed = new EmbedBuilder()
-    .setTitle(data.titulo || "Inscripciones")
+    .setTitle(`\u200B${data.titulo || "Inscripciones"}\u200B`)
     .setColor(0x1F8BFF)
     .setDescription(descriptionLines.join("\n"))
     .setFooter({ text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X(Numero que escogiste)'." });
