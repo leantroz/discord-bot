@@ -22,8 +22,8 @@ const commands = [
         .setDescription('Rol a mencionar')
         .setRequired(false))
     .addStringOption(option =>
-      option.setName('timestamp')
-        .setDescription('Código de timestamp de Discord, ej: <t:1777849200:R>')
+      option.setName('utc')
+        .setDescription('Horario en UTC (YYYY-MM-DD HH:mm o YYYY-MM-DDTHH:mm)')
         .setRequired(false))
     .addStringOption(option =>
       option.setName('nota')
@@ -59,8 +59,8 @@ const commands = [
         .setDescription('Nuevo título')
         .setRequired(false))
     .addStringOption(opt =>
-      opt.setName('timestamp')
-        .setDescription('Nuevo timestamp')
+      opt.setName('utc')
+        .setDescription('Nuevo horario UTC (YYYY-MM-DD HH:mm o YYYY-MM-DDTHH:mm)')
         .setRequired(false))
     .addStringOption(opt =>
       opt.setName('nota')

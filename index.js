@@ -43,7 +43,7 @@ client.on('interactionCreate', async (interaction) => {
     rolesInput.forEach((rol, i) => listaRoles[i+1] = rol.trim());
 
     const descriptionLines = [];
-    if (utcTimestamp) descriptionLines.push(`**UTC: <t:${utcTimestamp}:f>**`);
+    if (utcTimestamp) descriptionLines.push(`**UTC: ${utcInput} - <t:${utcTimestamp}:f>**`);
     if (nota) descriptionLines.push(`**${nota}**`);
     if (utcTimestamp || nota) descriptionLines.push("", "");
     descriptionLines.push(...Object.entries(listaRoles)
@@ -73,6 +73,7 @@ client.on('interactionCreate', async (interaction) => {
       jugadores: {},
       creador: interaction.user.id,
       cerrado: false,
+      utcInput,
       utcTimestamp,
       nota,
       notaInferior
@@ -105,7 +106,10 @@ client.on('interactionCreate', async (interaction) => {
 
     // Actualizar datos
     if (nuevoTitulo) insc.titulo = nuevoTitulo;
-    if (nuevoUtcInput) insc.utcTimestamp = nuevoUtcTimestamp;
+    if (nuevoUtcInput) {
+      insc.utcInput = nuevoUtcInput;
+      insc.utcTimestamp = nuevoUtcTimestamp;
+    }
     if (nuevaNota) insc.nota = nuevaNota;
     if (nuevaNotaInferior) insc.notaInferior = nuevaNotaInferior; // ✅ actualiza nota inferior
     if (rolesInput && cantidad) {
@@ -206,7 +210,10 @@ client.on('messageCreate', async (message) => {
 
 async function actualizarEmbed(parentMessage, data) {
   const descriptionLines = [];
-  if (data.utcTimestamp) descriptionLines.push(`**UTC: <t:${data.utcTimestamp}:f>**`);
+  if (data.utcTimestamp) {
+    const utcLine = data.utcInput ? `UTC: ${data.utcInput} - <t:${data.utcTimestamp}:f>` : `<t:${data.utcTimestamp}:f>`;
+    descriptionLines.push(`**${utcLine}**`);
+  }
   if (data.nota) descriptionLines.push(`**${data.nota}**`);
   if (data.utcTimestamp || data.nota) descriptionLines.push("", "");
   descriptionLines.push(...Object.entries(data.roles)
@@ -226,7 +233,7 @@ async function actualizarEmbed(parentMessage, data) {
 }
 
 function parseUtcInput(input) {
-  const normalized = input.trim().replace(/\s+/, 'T');
+  const normalized = input.trim().replace(/\s+/g, 'T');
   const isoMatch = normalized.match(/^\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}(?::\d{2})?)?$/);
   if (!isoMatch) return null;
 
