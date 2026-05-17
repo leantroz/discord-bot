@@ -43,7 +43,10 @@ client.on('interactionCreate', async (interaction) => {
     rolesInput.forEach((rol, i) => listaRoles[i+1] = rol.trim());
 
     const descriptionLines = [];
-    if (utcTimestamp) descriptionLines.push(`**UTC: ${utcInput} - <t:${utcTimestamp}:f>**`);
+    if (utcTimestamp) {
+      const utcTime = formatUtcTimeFromTimestamp(utcTimestamp);
+      descriptionLines.push(`**${utcTime} - <t:${utcTimestamp}:t>**`);
+    }
     if (nota) descriptionLines.push(`**${nota}**`);
     if (utcTimestamp || nota) descriptionLines.push("", "");
     descriptionLines.push(...Object.entries(listaRoles)
@@ -211,8 +214,8 @@ client.on('messageCreate', async (message) => {
 async function actualizarEmbed(parentMessage, data) {
   const descriptionLines = [];
   if (data.utcTimestamp) {
-    const utcLine = data.utcInput ? `UTC: ${data.utcInput} - <t:${data.utcTimestamp}:f>` : `<t:${data.utcTimestamp}:f>`;
-    descriptionLines.push(`**${utcLine}**`);
+    const utcTime = formatUtcTimeFromTimestamp(data.utcTimestamp);
+    descriptionLines.push(`**${utcTime} - <t:${data.utcTimestamp}:t>**`);
   }
   if (data.nota) descriptionLines.push(`**${data.nota}**`);
   if (data.utcTimestamp || data.nota) descriptionLines.push("", "");
@@ -230,6 +233,13 @@ async function actualizarEmbed(parentMessage, data) {
     .setFooter({ text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X(Numero que escogiste)'." });
 
   await parentMessage.edit({ embeds: [embed] });
+}
+
+function formatUtcTimeFromTimestamp(timestamp) {
+  const date = new Date(timestamp * 1000);
+  const hours = String(date.getUTCHours()).padStart(2, '0');
+  const minutes = String(date.getUTCMinutes()).padStart(2, '0');
+  return `${hours}:${minutes} UTC`;
 }
 
 function parseUtcInput(input) {
