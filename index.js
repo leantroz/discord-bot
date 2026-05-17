@@ -53,10 +53,7 @@ client.on('interactionCreate', async (interaction) => {
     const totalRoles = Object.keys(listaRoles).length;
     const occupied = 0;
     const estado = 'Abierto';
-    if (utcTimestamp || nota) descriptionLines.push("", "");
-    descriptionLines.push(...Object.entries(listaRoles)
-      .map(([num, rol]) => `${num}. **${rol.toUpperCase()}** - (Vacante)`));
-    if (notaInferior) descriptionLines.push("", `**${notaInferior}**`, "", "");
+    if (nota) descriptionLines.push("");
 
     const embed = new EmbedBuilder()
       .setTitle(titulo)
@@ -64,11 +61,20 @@ client.on('interactionCreate', async (interaction) => {
       .setDescription(descriptionLines.join("\n"))
       .setFooter({ text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X(Numero que escogiste)'." });
 
-    // Añadir campos inline para mostrar estado y contador a la derecha
     embed.addFields(
       { name: '\u200B', value: `**${estado}**`, inline: true },
+      { name: '\u200B', value: '\u200B', inline: true },
       { name: '\u200B', value: `**${occupied}/${totalRoles}**`, inline: true },
+      { name: '\u200B', value: Object.entries(listaRoles)
+        .map(([num, rol]) => `${num}. **${rol.toUpperCase()}** - (Vacante)`).join("\n"), inline: false },
     );
+    if (notaInferior) {
+      embed.addFields({ name: '\u200B', value: `**${notaInferior}**`, inline: false });
+      embed.addFields(
+        { name: '\u200B', value: '\u200B', inline: false },
+        { name: '\u200B', value: '\u200B', inline: false }
+      );
+    }
 
     const content = tagRol ? `<@&${tagRol.id}>` : null;
 
@@ -231,17 +237,10 @@ async function actualizarEmbed(parentMessage, data) {
   if (data.utcTimestamp && data.nota) descriptionLines.push("");
   if (data.nota) descriptionLines.push(`**${data.nota}**`);
 
-  // Estado y conteo
   const totalRoles = Object.keys(data.roles).length;
   const occupied = Object.keys(data.jugadores).length;
   const estado = data.cerrado ? 'Cerrado' : 'Abierto';
-  if (data.utcTimestamp || data.nota) descriptionLines.push("", "");
-  descriptionLines.push(...Object.entries(data.roles)
-    .map(([num, rol]) => {
-      const jugador = data.jugadores[num];
-      return `${num}. **${rol.toUpperCase()}** - ${jugador ? `<@${jugador.id}>` : "(Vacante)"}`;
-    }));
-  if (data.notaInferior) descriptionLines.push("", `**${data.notaInferior}**`, "", "");
+  if (data.nota) descriptionLines.push("");
 
   const embed = new EmbedBuilder()
     .setTitle(data.titulo || "Inscripciones")
@@ -249,11 +248,23 @@ async function actualizarEmbed(parentMessage, data) {
     .setDescription(descriptionLines.join("\n"))
     .setFooter({ text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X(Numero que escogiste)'." });
 
-  // Añadir campos inline para mostrar estado y contador a la derecha
   embed.addFields(
     { name: '\u200B', value: `**${estado}**`, inline: true },
+    { name: '\u200B', value: '\u200B', inline: true },
     { name: '\u200B', value: `**${occupied}/${totalRoles}**`, inline: true },
+    { name: '\u200B', value: Object.entries(data.roles)
+      .map(([num, rol]) => {
+        const jugador = data.jugadores[num];
+        return `${num}. **${rol.toUpperCase()}** - ${jugador ? `<@${jugador.id}>` : "(Vacante)"}`;
+      }).join("\n"), inline: false },
   );
+  if (data.notaInferior) {
+    embed.addFields({ name: '\u200B', value: `**${data.notaInferior}**`, inline: false });
+    embed.addFields(
+      { name: '\u200B', value: '\u200B', inline: false },
+      { name: '\u200B', value: '\u200B', inline: false }
+    );
+  }
 
   await parentMessage.edit({ embeds: [embed] });
 }
