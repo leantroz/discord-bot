@@ -66,9 +66,16 @@ client.on('interactionCreate', async (interaction) => {
       { name: 'Estado', value: `**${estado}**`, inline: true },
       { name: '\u200B', value: '\u200B', inline: true },
       { name: 'Cupos', value: `**${occupied}/${totalRoles}**`, inline: true },
-      { name: '\u200B', value: Object.entries(listaRoles)
-        .map(([num, rol]) => `${num}. **${rol.toUpperCase()} - (Vacante)**`).join("\n"), inline: false },
     );
+    // Dividir roles en partidas de 20
+    const rolesArray = Object.entries(listaRoles);
+    const rolesPerParty = 20;
+    for (let i = 0; i < rolesArray.length; i += rolesPerParty) {
+      const partyNum = Math.floor(i / rolesPerParty) + 1;
+      const partyRoles = rolesArray.slice(i, i + rolesPerParty)
+        .map(([num, rol]) => `${num}. **${rol.toUpperCase()} - (Vacante)**`).join("\n");
+      embed.addFields({ name: `Party ${partyNum}`, value: partyRoles, inline: false });
+    }
     if (notaInferior) {
       embed.addFields({ name: '\u200B', value: `**${notaInferior}**`, inline: false });
     }
@@ -250,12 +257,19 @@ async function actualizarEmbed(parentMessage, data) {
     { name: 'Estado', value: `**${estado}**`, inline: true },
     { name: '\u200B', value: '\u200B', inline: true },
     { name: 'Cupos', value: `**${occupied}/${totalRoles}**`, inline: true },
-    { name: '\u200B', value: Object.entries(data.roles)
+  );
+  // Dividir roles en partidas de 20
+  const rolesArray = Object.entries(data.roles);
+  const rolesPerParty = 20;
+  for (let i = 0; i < rolesArray.length; i += rolesPerParty) {
+    const partyNum = Math.floor(i / rolesPerParty) + 1;
+    const partyRoles = rolesArray.slice(i, i + rolesPerParty)
       .map(([num, rol]) => {
         const jugador = data.jugadores[num];
         return `${num}. **${rol.toUpperCase()} - ${jugador ? `<@${jugador.id}>` : "(Vacante)"}**`;
-      }).join("\n"), inline: false },
-  );
+      }).join("\n");
+    embed.addFields({ name: `Party ${partyNum}`, value: partyRoles, inline: false });
+  }
   if (data.notaInferior) {
     embed.addFields({ name: '\u200B', value: `**${data.notaInferior}**`, inline: false });
   }
