@@ -27,8 +27,8 @@ client.on('interactionCreate', async (interaction) => {
     const rolesInput = interaction.options.getString('roles').split(",");
     const tagRol = interaction.options.getRole('tag');
     const utcInput = interaction.options.getString('utc');
-    const nota = interaction.options.getString('nota'); // nota superior
-    const notaInferior = interaction.options.getString('nota_inferior'); // nota inferior
+    const nota = interaction.options.getString('nota'); 
+    const notaInferior = interaction.options.getString('nota_inferior'); 
 
     const utcTimestamp = utcInput ? parseUtcInput(utcInput) : null;
     if (utcInput && !utcTimestamp) {
@@ -113,7 +113,7 @@ client.on('interactionCreate', async (interaction) => {
     const nuevoTitulo = interaction.options.getString('titulo');
     const nuevoUtcInput = interaction.options.getString('utc');
     const nuevaNota = interaction.options.getString('nota');
-    const nuevaNotaInferior = interaction.options.getString('nota_inferior'); // ✅ nueva opción
+    const nuevaNotaInferior = interaction.options.getString('nota_inferior'); 
     const rolesInput = interaction.options.getString('roles');
     const cantidad = interaction.options.getInteger('cantidad');
 
@@ -128,14 +128,16 @@ client.on('interactionCreate', async (interaction) => {
       return interaction.reply("Formato UTC inválido. Usa YYYY-MM-DD HH:mm o YYYY-MM-DDTHH:mm.");
     }
 
-    // Actualizar datos
+  // =========================
+  // ACTUALIZAR DATOS
+  // =========================
     if (nuevoTitulo) insc.titulo = nuevoTitulo;
     if (nuevoUtcInput) {
       insc.utcInput = nuevoUtcInput;
       insc.utcTimestamp = nuevoUtcTimestamp;
     }
     if (nuevaNota) insc.nota = nuevaNota;
-    if (nuevaNotaInferior) insc.notaInferior = nuevaNotaInferior; // ✅ actualiza nota inferior
+    if (nuevaNotaInferior) insc.notaInferior = nuevaNotaInferior; 
     if (rolesInput && cantidad) {
     const rolesArray = rolesInput.split(",");
     if (rolesArray.length !== cantidad) {
@@ -199,7 +201,9 @@ client.on('messageCreate', async (message) => {
 
     const contenido = message.content.trim().toLowerCase();
 
-    // Liberar lugar
+  // =========================
+  // LIBERAR ROL
+  // =========================
     if (contenido.startsWith("liberar")) {
       const numero = parseInt(contenido.split(" ")[1]);
       if (data.jugadores[numero]?.id === message.author.id) {
@@ -211,7 +215,9 @@ client.on('messageCreate', async (message) => {
       }
     }
 
-    // Inscripción
+  // =========================
+  // INSCRIPCION
+  // =========================
     const numero = parseInt(contenido);
     if (!isNaN(numero)) {
       if (data.roles[numero]) {
@@ -258,7 +264,11 @@ async function actualizarEmbed(parentMessage, data) {
     { name: '\u200B', value: '\u200B', inline: true },
     { name: 'Cupos', value: `**${occupied}/${totalRoles}**`, inline: true },
   );
-  // Dividir roles en partidas de 20
+
+  
+// =========================
+// DIVIR ROL EN PARTYS DE 20
+// =========================
   const rolesArray = Object.entries(data.roles);
   const rolesPerParty = 20;
   for (let i = 0; i < rolesArray.length; i += rolesPerParty) {
