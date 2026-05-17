@@ -47,6 +47,7 @@ client.on('interactionCreate', async (interaction) => {
       const utcTime = formatUtcTimeFromTimestamp(utcTimestamp);
       descriptionLines.push(`**${utcTime} - <t:${utcTimestamp}:t>**`);
     }
+    if (utcTimestamp && nota) descriptionLines.push("");
     if (nota) descriptionLines.push(`**${nota}**`);
     if (utcTimestamp || nota) descriptionLines.push("", "");
     descriptionLines.push(...Object.entries(listaRoles)
@@ -217,6 +218,7 @@ async function actualizarEmbed(parentMessage, data) {
     const utcTime = formatUtcTimeFromTimestamp(data.utcTimestamp);
     descriptionLines.push(`**${utcTime} - <t:${data.utcTimestamp}:t>**`);
   }
+  if (data.utcTimestamp && data.nota) descriptionLines.push("");
   if (data.nota) descriptionLines.push(`**${data.nota}**`);
   if (data.utcTimestamp || data.nota) descriptionLines.push("", "");
   descriptionLines.push(...Object.entries(data.roles)
