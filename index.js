@@ -50,22 +50,25 @@ client.on('interactionCreate', async (interaction) => {
     if (utcTimestamp && nota) descriptionLines.push("");
     if (nota) descriptionLines.push(`**${nota}**`);
 
-    // Estado y conteo (al crear está vacío y abierto)
     const totalRoles = Object.keys(listaRoles).length;
     const occupied = 0;
     const estado = 'Abierto';
-    if (nota) descriptionLines.push("");
-    descriptionLines.push(`**${estado} · ${occupied}/${totalRoles}**`);
     if (utcTimestamp || nota) descriptionLines.push("", "");
     descriptionLines.push(...Object.entries(listaRoles)
       .map(([num, rol]) => `${num}. **${rol.toUpperCase()}** - (Vacante)`));
-    if (notaInferior) descriptionLines.push("", `**${notaInferior}**`);
+    if (notaInferior) descriptionLines.push("", `**${notaInferior}**`, "", "");
 
     const embed = new EmbedBuilder()
       .setTitle(titulo)
       .setColor(0x1F8BFF)
       .setDescription(descriptionLines.join("\n"))
       .setFooter({ text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X(Numero que escogiste)'." });
+
+    // Añadir campos inline para mostrar estado y contador a la derecha
+    embed.addFields(
+      { name: '\u200B', value: `**${estado}**`, inline: true },
+      { name: '\u200B', value: `**${occupied}/${totalRoles}**`, inline: true },
+    );
 
     const content = tagRol ? `<@&${tagRol.id}>` : null;
 
@@ -232,21 +235,25 @@ async function actualizarEmbed(parentMessage, data) {
   const totalRoles = Object.keys(data.roles).length;
   const occupied = Object.keys(data.jugadores).length;
   const estado = data.cerrado ? 'Cerrado' : 'Abierto';
-  if (data.nota) descriptionLines.push("");
-  descriptionLines.push(`**${estado} · ${occupied}/${totalRoles}**`);
   if (data.utcTimestamp || data.nota) descriptionLines.push("", "");
   descriptionLines.push(...Object.entries(data.roles)
     .map(([num, rol]) => {
       const jugador = data.jugadores[num];
       return `${num}. **${rol.toUpperCase()}** - ${jugador ? `<@${jugador.id}>` : "(Vacante)"}`;
     }));
-  if (data.notaInferior) descriptionLines.push("", `**${data.notaInferior}**`);
+  if (data.notaInferior) descriptionLines.push("", `**${data.notaInferior}**`, "", "");
 
   const embed = new EmbedBuilder()
     .setTitle(data.titulo || "Inscripciones")
     .setColor(0x1F8BFF)
     .setDescription(descriptionLines.join("\n"))
     .setFooter({ text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X(Numero que escogiste)'." });
+
+  // Añadir campos inline para mostrar estado y contador a la derecha
+  embed.addFields(
+    { name: '\u200B', value: `**${estado}**`, inline: true },
+    { name: '\u200B', value: `**${occupied}/${totalRoles}**`, inline: true },
+  );
 
   await parentMessage.edit({ embeds: [embed] });
 }
