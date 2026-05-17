@@ -80,12 +80,16 @@ const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
 
 (async () => {
   try {
-    console.log('Registrando comandos globales...');
+    if (!process.env.GUILD_ID) {
+      throw new Error('Falta la variable de entorno GUILD_ID. Añade el ID del servidor específico.');
+    }
+
+    console.log('Registrando comandos en el servidor específico...');
     await rest.put(
-      Routes.applicationCommands(process.env.CLIENT_ID), // 
+      Routes.applicationGuildCommands(process.env.CLIENT_ID, process.env.GUILD_ID),
       { body: commands },
     );
-    console.log('Comandos registrados globalmente.');
+    console.log('Comandos registrados en el servidor específico.');
   } catch (error) {
     console.error(error);
   }
