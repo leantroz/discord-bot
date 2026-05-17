@@ -68,7 +68,7 @@ client.on('interactionCreate', async (interaction) => {
       { name: 'Cupos', value: `**${occupied}/${totalRoles}**`, inline: true },
       { name: '\u200B', value: '\u200B', inline: false },
       { name: '\u200B', value: Object.entries(listaRoles)
-        .map(([num, rol]) => `${num}. **${rol.toUpperCase()}** - (Vacante)`).join("\n"), inline: false },
+        .map(([num, rol]) => `${num}. **${rol.toUpperCase()} - (Vacante)**`).join("\n"), inline: false },
     );
     if (notaInferior) {
       embed.addFields({ name: '\u200B', value: '\u200B', inline: false });
@@ -259,7 +259,7 @@ async function actualizarEmbed(parentMessage, data) {
     { name: '\u200B', value: Object.entries(data.roles)
       .map(([num, rol]) => {
         const jugador = data.jugadores[num];
-        return `${num}. **${rol.toUpperCase()}** - ${jugador ? `<@${jugador.id}>` : "(Vacante)"}`;
+        return `${num}. **${rol.toUpperCase()} - ${jugador ? `<@${jugador.id}>` : "(Vacante)"}**`;
       }).join("\n"), inline: false },
   );
   if (data.notaInferior) {
