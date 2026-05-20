@@ -80,14 +80,17 @@ client.on('interactionCreate', async (interaction) => {
       embed.addFields({ name: '\u200B', value: `**${notaInferior}**`, inline: false });
     }
 
-    const content = tagRol ? `<@&${tagRol.id}>` : null;
-
-    const sentMessage = await interaction.reply({
-      content,
+    const content = tagRol ? `<@&${tagRol.id}>` : undefined;
+    const replyOptions = {
       embeds: [embed],
-      fetchReply: true,
-      allowedMentions: { roles: tagRol ? [tagRol.id] : [] }
-    });
+      fetchReply: true
+    };
+    if (tagRol) {
+      replyOptions.content = content;
+      replyOptions.allowedMentions = { roles: [tagRol.id] };
+    }
+
+    const sentMessage = await interaction.reply(replyOptions);
 
     await sentMessage.startThread({ name: "Inscripciones", autoArchiveDuration: 60 });
 
