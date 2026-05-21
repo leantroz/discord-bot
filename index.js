@@ -1,5 +1,6 @@
 require('dotenv').config();
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
+const fs = require('node:fs');
 
 const client = new Client({
   intents: [
@@ -9,9 +10,33 @@ const client = new Client({
   ]
 });
 
-let inscripciones = {};
+const PATH_ARCHIVO = './inscripciones.txt';
 
-client.once('ready', () => {
+// Cargar datos al iniciar
+let inscripciones = cargarDatos();
+
+function cargarDatos() {
+  if (fs.existsSync(PATH_ARCHIVO)) {
+    try {
+      const data = fs.readFileSync(PATH_ARCHIVO, 'utf8');
+      return JSON.parse(data);
+    } catch (error) {
+      console.error("Error al leer el archivo de inscripciones:", error);
+      return {};
+    }
+  }
+  return {};
+}
+
+function guardarDatos() {
+  try {
+    fs.writeFileSync(PATH_ARCHIVO, JSON.stringify(inscripciones, null, 2), 'utf8');
+  } catch (error) {
+    console.error("Error al guardar el archivo de inscripciones:", error);
+  }
+}
+
+client.on('clientReady', () => {
   console.log(`Bot iniciado como ${client.user.tag}`);
 });
 
@@ -105,6 +130,7 @@ client.on('interactionCreate', async (interaction) => {
       nota,
       notaInferior
     };
+    guardarDatos();
 
   }
 
@@ -151,6 +177,7 @@ client.on('interactionCreate', async (interaction) => {
   }
 
   await actualizarEmbed(await interaction.channel.messages.fetch(mensajeId), insc);
+  guardarDatos();
   return interaction.reply("Inscripción actualizada.");
 }
 
@@ -167,6 +194,7 @@ client.on('interactionCreate', async (interaction) => {
     if (interaction.user.id !== data.creador) return interaction.reply("Solo el creador puede resetear la lista.");
 
     data.jugadores = {};
+    guardarDatos();
     await actualizarEmbed(parentMessage, data);
     return interaction.reply("La lista ha sido reseteada.");
   }
@@ -180,6 +208,7 @@ client.on('interactionCreate', async (interaction) => {
     if (interaction.user.id !== data.creador) return interaction.reply("Solo el creador puede cerrar la lista.");
 
     data.cerrado = true;
+    guardarDatos();
     return interaction.reply("La lista ha sido cerrada. No se aceptan más inscripciones.");
   }
 
@@ -192,6 +221,7 @@ client.on('interactionCreate', async (interaction) => {
     if (interaction.user.id !== data.creador) return interaction.reply("Solo el creador puede reabrir la lista.");
 
     data.cerrado = false;
+    guardarDatos();
     return interaction.reply("La lista ha sido reabierta. Ya se aceptan inscripciones nuevamente.");
   }
 });
@@ -211,6 +241,7 @@ client.on('messageCreate', async (message) => {
       const numero = parseInt(contenido.split(" ")[1]);
       if (data.jugadores[numero]?.id === message.author.id) {
         delete data.jugadores[numero];
+        guardarDatos();
         await actualizarEmbed(parentMessage, data);
         return message.reply(`Has liberado el rol ${numero}.`);
       } else {
@@ -232,6 +263,7 @@ client.on('messageCreate', async (message) => {
           return message.reply("Ya estás inscripto en otro rol. Liberalo primero escribiendo:'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2' si querés cambiar.");
         }
         data.jugadores[numero] = message.author;
+        guardarDatos();
         await actualizarEmbed(parentMessage, data);
         return message.reply(`Te inscribiste en el lugar ${numero}.`);
       } else {
