@@ -106,16 +106,14 @@ client.on('interactionCreate', async (interaction) => {
     }
 
     const content = tagRol ? `<@&${tagRol.id}>` : undefined;
-    const replyOptions = {
-      embeds: [embed],
-      fetchReply: true
-    };
+    const replyOptions = { embeds: [embed] };
     if (tagRol) {
       replyOptions.content = content;
       replyOptions.allowedMentions = { roles: [tagRol.id] };
     }
 
-    const sentMessage = await interaction.reply(replyOptions);
+    await interaction.reply(replyOptions);
+    const sentMessage = await interaction.fetchReply();
 
     await sentMessage.startThread({ name: "Inscripciones", autoArchiveDuration: 60 });
 
