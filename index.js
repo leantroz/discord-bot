@@ -22,7 +22,7 @@ client.on('interactionCreate', async (interaction) => {
 // CREAR INSCRIPCIONES
 // =========================
 if (interaction.commandName === 'inscripciones') {
-  await interaction.deferReply(); // ✅ evita timeout
+  await interaction.deferReply(); //  evita timeout
 
   const titulo = interaction.options.getString('titulo');
   const cantidad = interaction.options.getInteger('cantidad');
@@ -55,7 +55,7 @@ if (interaction.commandName === 'inscripciones') {
   const occupied = 0;
   const estado = 'Abierto';
 
-  // ✅ Evitar descripción vacía
+  //  Evitar descripción vacía
   const desc = descriptionLines.length > 0 ? descriptionLines.join("\n") : " ";
 
   const embed = new EmbedBuilder()
@@ -86,7 +86,7 @@ if (interaction.commandName === 'inscripciones') {
     embed.addFields({ name: '\u200B', value: `**${notaInferior}**`, inline: false });
   }
 
-  // ✅ Usar editReply en lugar de replyOptions + fetchReply
+  //  Usar editReply en lugar de replyOptions + fetchReply
   const sentMessage = await interaction.editReply({
     content: tagRol ? `<@&${tagRol.id}>` : undefined,
     embeds: [embed],
