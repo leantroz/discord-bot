@@ -132,7 +132,7 @@ client.on('interactionCreate', async (interaction) => {
       nota,
       notaInferior
     };
-    guardarDatos();
+    await guardarDatos();
   }
 
   // =========================
@@ -178,7 +178,7 @@ client.on('interactionCreate', async (interaction) => {
   }
 
   await actualizarEmbed(await interaction.channel.messages.fetch(mensajeId), insc);
-  guardarDatos();
+  await guardarDatos();
   return interaction.reply("Inscripción actualizada.");
 }
 
@@ -195,7 +195,7 @@ client.on('interactionCreate', async (interaction) => {
     if (interaction.user.id !== data.creador) return interaction.reply("Solo el creador puede resetear la lista.");
 
     data.jugadores = {};
-    guardarDatos();
+    await guardarDatos();
     await actualizarEmbed(parentMessage, data);
     return interaction.reply("La lista ha sido reseteada.");
   }
@@ -209,7 +209,7 @@ client.on('interactionCreate', async (interaction) => {
     if (interaction.user.id !== data.creador) return interaction.reply("Solo el creador puede cerrar la lista.");
 
     data.cerrado = true;
-    guardarDatos();
+    await guardarDatos();
     return interaction.reply("La lista ha sido cerrada. No se aceptan más inscripciones.");
   }
 
@@ -222,7 +222,7 @@ client.on('interactionCreate', async (interaction) => {
     if (interaction.user.id !== data.creador) return interaction.reply("Solo el creador puede reabrir la lista.");
 
     data.cerrado = false;
-    guardarDatos();
+    await guardarDatos();
     return interaction.reply("La lista ha sido reabierta. Ya se aceptan inscripciones nuevamente.");
   }
 });
@@ -242,7 +242,7 @@ client.on('messageCreate', async (message) => {
       const numero = parseInt(contenido.split(" ")[1]);
       if (data.jugadores[numero]?.id === message.author.id) {
         delete data.jugadores[numero];
-        guardarDatos();
+        await guardarDatos();
         await actualizarEmbed(parentMessage, data);
         return message.reply(`Has liberado el rol ${numero}.`);
       } else {
@@ -264,7 +264,7 @@ client.on('messageCreate', async (message) => {
           return message.reply("Ya estás inscripto en otro rol. Liberalo primero escribiendo:'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2' si querés cambiar.");
         }
         data.jugadores[numero] = message.author;
-        guardarDatos();
+        await guardarDatos();
         await actualizarEmbed(parentMessage, data);
         return message.reply(`Te inscribiste en el lugar ${numero}.`);
       } else {
