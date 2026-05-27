@@ -139,6 +139,8 @@ client.on('interactionCreate', async (interaction) => {
   // EDITAR INSCRIPCIONES
   // =========================
   if (interaction.commandName === 'editar_inscripcion') {
+    await interaction.deferReply({ ephemeral: true }); // Evita timeout y hace la respuesta privada
+
     const mensajeId = interaction.options.getString('mensaje_id');
     const nuevoTitulo = interaction.options.getString('titulo');
     const nuevoUtcInput = interaction.options.getString('utc');
@@ -148,14 +150,14 @@ client.on('interactionCreate', async (interaction) => {
     const cantidad = interaction.options.getInteger('cantidad');
 
     const insc = inscripciones[mensajeId];
-    if (!insc) return interaction.reply("No encontré esa inscripción.");
+    if (!insc) return interaction.editReply("No encontré esa inscripción.");
     if (interaction.user.id !== insc.creador) {
-      return interaction.reply("Solo el creador puede editar esta inscripción.");
+      return interaction.editReply("Solo el creador puede editar esta inscripción.");
     }
 
     const nuevoUtcTimestamp = nuevoUtcInput ? parseUtcInput(nuevoUtcInput) : null;
     if (nuevoUtcInput && !nuevoUtcTimestamp) {
-      return interaction.reply("Formato UTC inválido. Usa YYYY-MM-DD HH:mm o YYYY-MM-DDTHH:mm.");
+      return interaction.editReply("Formato UTC inválido. Usa YYYY-MM-DD HH:mm o YYYY-MM-DDTHH:mm.");
     }
 
   // =========================
@@ -171,7 +173,7 @@ client.on('interactionCreate', async (interaction) => {
     if (rolesInput && cantidad) {
     const rolesArray = rolesInput.split(",");
     if (rolesArray.length !== cantidad) {
-      return interaction.reply("La cantidad de roles no coincide con el número indicado.");
+      return interaction.editReply("La cantidad de roles no coincide con el número indicado.");
     }
     insc.roles = {};
     rolesArray.forEach((rol, i) => insc.roles[i+1] = rol.trim());
@@ -179,7 +181,7 @@ client.on('interactionCreate', async (interaction) => {
 
   await actualizarEmbed(await interaction.channel.messages.fetch(mensajeId), insc);
   await guardarDatos();
-  return interaction.reply("Inscripción actualizada.");
+  return interaction.editReply("Inscripción actualizada.");
 }
 
 
