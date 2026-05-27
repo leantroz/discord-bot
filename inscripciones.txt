@@ -1,0 +1,4594 @@
+{
+  "1503387566752399530": {
+    "titulo": "1",
+    "roles": {
+      "1": "ta",
+      "2": "1"
+    },
+    "jugadores": {
+      "2": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "247488945217077250",
+    "cerrado": false,
+    "timestamp": null,
+    "nota": "a",
+    "notaInferior": null
+  },
+  "1503885629195292704": {
+    "titulo": "Guerra en AR 01:45 UTC",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {
+      "1": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "ea431e1c3d0bdff54eb8396216597a7e",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/ea431e1c3d0bdff54eb8396216597a7e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/ea431e1c3d0bdff54eb8396216597a7e.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "2": {
+        "id": "335802174707728384",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "stfranciss",
+        "globalName": "Francis",
+        "discriminator": "0",
+        "avatar": "57c0f55128b4ead06315bc00a02717fe",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_9450b11728cd18bf686d45513559ddb1",
+          "skuId": "1357589632514134107"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1349849614227865711",
+            "asset": "nameplates/nameplates/koi_pond/",
+            "label": "COLLECTIBLES_NAMEPLATES_KOI_POND_A11Y",
+            "palette": "sky"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "594296025561169926",
+          "identityEnabled": true,
+          "tag": "SUS",
+          "badge": "79366e8660935912726217b413fcc19b"
+        },
+        "createdTimestamp": 1500131877353,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "stfranciss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/594296025561169926/79366e8660935912726217b413fcc19b.webp"
+      },
+      "4": {
+        "id": "576540360193343488",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "cronus55",
+        "globalName": "Cronusx55",
+        "discriminator": "0",
+        "avatar": "97ac0797bb22aa163f4bdb7d429634de",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_7e68c00aa5c50a066b4eb66209204315",
+          "skuId": "1432550258126229565"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1427463138646954036",
+            "asset": "nameplates/orb/magical_mist/",
+            "label": "COLLECTIBLES_ORB_MAGIC_MISTS_NP_A11Y",
+            "palette": "cobalt"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1557528333472,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "cronus55",
+        "avatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "5": {
+        "id": "751952925999235162",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "eliandoski",
+        "globalName": "Eliandoski",
+        "discriminator": "0",
+        "avatar": "8baf571d69d4fcc907c96f4e48fb90fe",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1377377712162738196",
+            "asset": "nameplates/nameplates_v2/sword_of_legend/",
+            "label": "COLLECTIBLES_NAMEPLATES_V2_SWORD_OF_LEGEND_A11Y",
+            "palette": "cobalt"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1599349948168,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "eliandoski",
+        "avatarURL": "https://cdn.discordapp.com/avatars/751952925999235162/8baf571d69d4fcc907c96f4e48fb90fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/751952925999235162/8baf571d69d4fcc907c96f4e48fb90fe.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "6": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      },
+      "7": {
+        "id": "133759059655524352",
+        "bot": false,
+        "system": false,
+        "flags": 256,
+        "username": "outzc",
+        "globalName": "Outzc",
+        "discriminator": "0",
+        "avatar": "b5ee0637f364853af0cca0be4e7ea7ad",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1451961044945,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "outzc",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "8": {
+        "id": "133786737230086155",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "winnietricks",
+        "globalName": "WinnieTricks",
+        "discriminator": "0",
+        "avatar": "7fa6c5ea872facb615c101ba13e74945",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1451967643793,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "winnietricks",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133786737230086155/7fa6c5ea872facb615c101ba13e74945.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133786737230086155/7fa6c5ea872facb615c101ba13e74945.webp",
+        "guildTagBadgeURL": null
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      },
+      "10": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "timestamp": "<t:1778636700:R>",
+    "nota": "Iremos melee en un inicio, puede que cambiemos a rango despues en AR",
+    "notaInferior": null
+  },
+  "1504293186787606608": {
+    "titulo": "Tralalero Tralala 03:45 UTC",
+    "roles": {
+      "1": "Perma",
+      "2": "Brujeria",
+      "3": "Maldicion de Vida",
+      "4": "Arco Lamentaciones",
+      "5": "Arco Lamentaciones",
+      "6": "Arco Lamentaciones",
+      "7": "Guja Fisurante",
+      "8": "Guja Fisurante",
+      "9": "Caza Espiritus",
+      "10": "Juradores",
+      "11": "Healer con Chaqueta Real",
+      "12": "Pasillo"
+    },
+    "jugadores": {
+      "1": {
+        "id": "576540360193343488",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "cronus55",
+        "globalName": "Cronusx55",
+        "discriminator": "0",
+        "avatar": "97ac0797bb22aa163f4bdb7d429634de",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_7e68c00aa5c50a066b4eb66209204315",
+          "skuId": "1432550258126229565"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1427463138646954036",
+            "asset": "nameplates/orb/magical_mist/",
+            "label": "COLLECTIBLES_ORB_MAGIC_MISTS_NP_A11Y",
+            "palette": "cobalt"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1557528333472,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "cronus55",
+        "avatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "2": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "ea431e1c3d0bdff54eb8396216597a7e",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/ea431e1c3d0bdff54eb8396216597a7e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/ea431e1c3d0bdff54eb8396216597a7e.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "3": {
+        "id": "1079492080528806068",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "sheilasrz",
+        "globalName": "Shizue",
+        "discriminator": "0",
+        "avatar": "f522b0ca43c20a94aee1ad6734a81787",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_f081c6b2c85c5ebe5df42f1c24d45bb5",
+          "skuId": "1306330662990643252"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1677441367991,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "sheilasrz",
+        "avatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "4": {
+        "id": "751952925999235162",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "eliandoski",
+        "globalName": "Eliandoski",
+        "discriminator": "0",
+        "avatar": "8baf571d69d4fcc907c96f4e48fb90fe",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1377377712162738196",
+            "asset": "nameplates/nameplates_v2/sword_of_legend/",
+            "label": "COLLECTIBLES_NAMEPLATES_V2_SWORD_OF_LEGEND_A11Y",
+            "palette": "cobalt"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1599349948168,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "eliandoski",
+        "avatarURL": "https://cdn.discordapp.com/avatars/751952925999235162/8baf571d69d4fcc907c96f4e48fb90fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/751952925999235162/8baf571d69d4fcc907c96f4e48fb90fe.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "5": {
+        "id": "1104609041285660805",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "inthewyldwood",
+        "globalName": "InTheWyldWood",
+        "discriminator": "0",
+        "avatar": "a94d51ac210a1f529927740e91417465",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_34f162fc767aeb087d8d54a6f1ce697b",
+          "skuId": "1409898407874531328"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1377377712129179840",
+            "asset": "nameplates/nameplates_v2/cozy_cat/",
+            "label": "COLLECTIBLES_NAMEPLATES_V2_COZY_CAT_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1683429718086,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "tag": "inthewyldwood",
+        "avatarURL": "https://cdn.discordapp.com/avatars/1104609041285660805/a94d51ac210a1f529927740e91417465.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/1104609041285660805/a94d51ac210a1f529927740e91417465.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "6": {
+        "id": "950788938317062146",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "zarigueyahorny",
+        "globalName": "Longinus2468",
+        "discriminator": "0",
+        "avatar": "1909719ca0b9a99aa62a589bc3948b6f",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_75567bd9b6400f337d033428b24938a4",
+          "skuId": "1395905165839569179"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1646756147699,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "zarigueyahorny",
+        "avatarURL": "https://cdn.discordapp.com/avatars/950788938317062146/1909719ca0b9a99aa62a589bc3948b6f.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/950788938317062146/1909719ca0b9a99aa62a589bc3948b6f.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "8": {
+        "id": "133786737230086155",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "winnietricks",
+        "globalName": "WinnieTricks",
+        "discriminator": "0",
+        "avatar": "7fa6c5ea872facb615c101ba13e74945",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1451967643793,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "winnietricks",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133786737230086155/7fa6c5ea872facb615c101ba13e74945.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133786737230086155/7fa6c5ea872facb615c101ba13e74945.webp",
+        "guildTagBadgeURL": null
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      },
+      "12": {
+        "id": "333112548507385866",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "shaloow",
+        "globalName": "Shaloow",
+        "discriminator": "0",
+        "avatar": "64b5aaa160e78461eaa352e14200b9f5",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1499490620496,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "tag": "shaloow",
+        "avatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "timestamp": "<t:1778730300:R>",
+    "nota": "Vamos a Expanse por contenido desde Portal de BW",
+    "notaInferior": null
+  },
+  "1504602084052439161": {
+    "titulo": "Pelea en Expanse 03:45 UTC",
+    "roles": {
+      "1": "Perma",
+      "2": "Brujeria",
+      "3": "Maldicion de Vida",
+      "4": "Arco Lamentaciones",
+      "5": "Arco Lamentaciones",
+      "6": "Arco Lamentaciones",
+      "7": "Guja Fisurante",
+      "8": "Guja Fisurante",
+      "9": "Caza Espiritus",
+      "10": "Juradores",
+      "11": "Healer con Chaqueta Real",
+      "12": "Pasillo"
+    },
+    "jugadores": {
+      "1": {
+        "id": "576540360193343488",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "cronus55",
+        "globalName": "Cronusx55",
+        "discriminator": "0",
+        "avatar": "97ac0797bb22aa163f4bdb7d429634de",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_7e68c00aa5c50a066b4eb66209204315",
+          "skuId": "1432550258126229565"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1427463138646954036",
+            "asset": "nameplates/orb/magical_mist/",
+            "label": "COLLECTIBLES_ORB_MAGIC_MISTS_NP_A11Y",
+            "palette": "cobalt"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1557528333472,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "cronus55",
+        "avatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "2": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "ea431e1c3d0bdff54eb8396216597a7e",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/ea431e1c3d0bdff54eb8396216597a7e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/ea431e1c3d0bdff54eb8396216597a7e.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "3": {
+        "id": "1079492080528806068",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "sheilasrz",
+        "globalName": "Shizue",
+        "discriminator": "0",
+        "avatar": "f522b0ca43c20a94aee1ad6734a81787",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_f081c6b2c85c5ebe5df42f1c24d45bb5",
+          "skuId": "1306330662990643252"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1677441367991,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "sheilasrz",
+        "avatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "4": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      },
+      "5": {
+        "id": "751952925999235162",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "eliandoski",
+        "globalName": "Eliandoski",
+        "discriminator": "0",
+        "avatar": "8baf571d69d4fcc907c96f4e48fb90fe",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1377377712162738196",
+            "asset": "nameplates/nameplates_v2/sword_of_legend/",
+            "label": "COLLECTIBLES_NAMEPLATES_V2_SWORD_OF_LEGEND_A11Y",
+            "palette": "cobalt"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1599349948168,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "eliandoski",
+        "avatarURL": "https://cdn.discordapp.com/avatars/751952925999235162/8baf571d69d4fcc907c96f4e48fb90fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/751952925999235162/8baf571d69d4fcc907c96f4e48fb90fe.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "6": {
+        "id": "133759059655524352",
+        "bot": false,
+        "system": false,
+        "flags": 256,
+        "username": "outzc",
+        "globalName": "Outzc",
+        "discriminator": "0",
+        "avatar": "b5ee0637f364853af0cca0be4e7ea7ad",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1451961044945,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "outzc",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "8": {
+        "id": "133786737230086155",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "winnietricks",
+        "globalName": "WinnieTricks",
+        "discriminator": "0",
+        "avatar": "7fa6c5ea872facb615c101ba13e74945",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1451967643793,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "winnietricks",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133786737230086155/7fa6c5ea872facb615c101ba13e74945.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133786737230086155/7fa6c5ea872facb615c101ba13e74945.webp",
+        "guildTagBadgeURL": null
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      },
+      "12": {
+        "id": "333112548507385866",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "shaloow",
+        "globalName": "Shaloow",
+        "discriminator": "0",
+        "avatar": "64b5aaa160e78461eaa352e14200b9f5",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1499490620496,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "tag": "shaloow",
+        "avatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "timestamp": "<t:1778816700:R>",
+    "nota": "Vamos a Expanse por el round 2",
+    "notaInferior": "Necesito unos juradores si o si, o nos vamos follados todos cabron"
+  },
+  "1505313912109797538": {
+    "titulo": "Reset Day 00:30 UTC",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {
+      "1": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "a_692d891797c8f0a8d4f14214f22e5980",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "2": {
+        "id": "335802174707728384",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "stfranciss",
+        "globalName": "Francis",
+        "discriminator": "0",
+        "avatar": "57c0f55128b4ead06315bc00a02717fe",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_9450b11728cd18bf686d45513559ddb1",
+          "skuId": "1357589632514134107"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1349849614227865711",
+            "asset": "nameplates/nameplates/koi_pond/",
+            "label": "COLLECTIBLES_NAMEPLATES_KOI_POND_A11Y",
+            "palette": "sky"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "594296025561169926",
+          "identityEnabled": true,
+          "tag": "SUS",
+          "badge": "79366e8660935912726217b413fcc19b"
+        },
+        "createdTimestamp": 1500131877353,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "stfranciss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/594296025561169926/79366e8660935912726217b413fcc19b.webp"
+      },
+      "3": {
+        "id": "1079492080528806068",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "sheilasrz",
+        "globalName": "Shizue",
+        "discriminator": "0",
+        "avatar": "f522b0ca43c20a94aee1ad6734a81787",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_f081c6b2c85c5ebe5df42f1c24d45bb5",
+          "skuId": "1306330662990643252"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1677441367991,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "sheilasrz",
+        "avatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "4": {
+        "id": "576540360193343488",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "cronus55",
+        "globalName": "Cronusx55",
+        "discriminator": "0",
+        "avatar": "97ac0797bb22aa163f4bdb7d429634de",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_7e68c00aa5c50a066b4eb66209204315",
+          "skuId": "1432550258126229565"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1427463138646954036",
+            "asset": "nameplates/orb/magical_mist/",
+            "label": "COLLECTIBLES_ORB_MAGIC_MISTS_NP_A11Y",
+            "palette": "cobalt"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1557528333472,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "cronus55",
+        "avatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "5": {
+        "id": "594416751874408449",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "ratonqlouwu",
+        "globalName": "Ratonqlouwu",
+        "discriminator": "0",
+        "avatar": "5833c9bb79c84977ed20a6b77b441354",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1561790397376,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "ratonqlouwu",
+        "avatarURL": "https://cdn.discordapp.com/avatars/594416751874408449/5833c9bb79c84977ed20a6b77b441354.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/594416751874408449/5833c9bb79c84977ed20a6b77b441354.webp",
+        "guildTagBadgeURL": null
+      },
+      "6": {
+        "id": "290244843114987521",
+        "bot": false,
+        "system": false,
+        "flags": 64,
+        "username": "zattami",
+        "globalName": "Zam",
+        "discriminator": "0",
+        "avatar": "9929b855c221549aedc643a2a761e5a5",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "523059903812599811",
+          "identityEnabled": true,
+          "tag": "HYTL",
+          "badge": "90a3edbdc5465bd6b6574adadb29b32e"
+        },
+        "createdTimestamp": 1489270163087,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "zattami",
+        "avatarURL": "https://cdn.discordapp.com/avatars/290244843114987521/9929b855c221549aedc643a2a761e5a5.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/290244843114987521/9929b855c221549aedc643a2a761e5a5.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/523059903812599811/90a3edbdc5465bd6b6574adadb29b32e.webp"
+      },
+      "7": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      },
+      "8": {
+        "id": "133786737230086155",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "winnietricks",
+        "globalName": "WinnieTricks",
+        "discriminator": "0",
+        "avatar": "7fa6c5ea872facb615c101ba13e74945",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1451967643793,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "winnietricks",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133786737230086155/7fa6c5ea872facb615c101ba13e74945.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133786737230086155/7fa6c5ea872facb615c101ba13e74945.webp",
+        "guildTagBadgeURL": null
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "timestamp": "<t:1778977800:R>",
+    "nota": "Esten atentos a cualquier ping, puede que salgamos mas temprano de lo normal.",
+    "notaInferior": null
+  },
+  "1506713012030017567": {
+    "titulo": "Masseo 23:30 UTC Chasm",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {
+      "1": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "a_692d891797c8f0a8d4f14214f22e5980",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "2": {
+        "id": "335802174707728384",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "stfranciss",
+        "globalName": "Francis",
+        "discriminator": "0",
+        "avatar": "57c0f55128b4ead06315bc00a02717fe",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_9450b11728cd18bf686d45513559ddb1",
+          "skuId": "1357589632514134107"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1349849614227865711",
+            "asset": "nameplates/nameplates/koi_pond/",
+            "label": "COLLECTIBLES_NAMEPLATES_KOI_POND_A11Y",
+            "palette": "sky"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "594296025561169926",
+          "identityEnabled": true,
+          "tag": "SUS",
+          "badge": "79366e8660935912726217b413fcc19b"
+        },
+        "createdTimestamp": 1500131877353,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "stfranciss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/594296025561169926/79366e8660935912726217b413fcc19b.webp"
+      },
+      "3": {
+        "id": "1079492080528806068",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "sheilasrz",
+        "globalName": "Shizue",
+        "discriminator": "0",
+        "avatar": "f522b0ca43c20a94aee1ad6734a81787",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_f081c6b2c85c5ebe5df42f1c24d45bb5",
+          "skuId": "1306330662990643252"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1677441367991,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "sheilasrz",
+        "avatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "5": {
+        "id": "333112548507385866",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "shaloow",
+        "globalName": "Shaloow",
+        "discriminator": "0",
+        "avatar": "64b5aaa160e78461eaa352e14200b9f5",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1499490620496,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "tag": "shaloow",
+        "avatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "guildTagBadgeURL": null
+      },
+      "6": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      },
+      "10": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "timestamp": null,
+    "nota": "1+1 Melee en Chasm. Necesito un muy buen masseo.",
+    "notaInferior": null
+  },
+  "1506721851127369899": {
+    "titulo": "1",
+    "roles": {
+      "1": "1"
+    },
+    "jugadores": {},
+    "creador": "247488945217077250",
+    "cerrado": false,
+    "timestamp": null,
+    "nota": null,
+    "notaInferior": null
+  },
+  "1506726705073754263": {
+    "titulo": "Causa",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS utc:2026-05-20 01:30"
+    },
+    "jugadores": {},
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "timestamp": null,
+    "nota": null,
+    "notaInferior": null
+  },
+  "1506823665805688992": {
+    "titulo": "ti",
+    "roles": {
+      "1": "1"
+    },
+    "jugadores": {
+      "1": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "247488945217077250",
+    "cerrado": false,
+    "timestamp": "2026-05-20 00:00",
+    "nota": null,
+    "notaInferior": null
+  },
+  "1506824027187056770": {
+    "titulo": "Causa",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {
+      "2": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "247488945217077250",
+    "cerrado": false,
+    "timestamp": "utc:2026-05-20 01:30",
+    "nota": null,
+    "notaInferior": null
+  },
+  "1506825036030546020": {
+    "titulo": "Causa",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {},
+    "creador": "247488945217077250",
+    "cerrado": false,
+    "timestamp": null,
+    "nota": null,
+    "notaInferior": null
+  },
+  "1506825173083488418": {
+    "titulo": "Causa",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {},
+    "creador": "247488945217077250",
+    "cerrado": false,
+    "timestamp": null,
+    "nota": null,
+    "notaInferior": null
+  },
+  "1506901558414151780": {
+    "titulo": "1",
+    "roles": {
+      "1": "1"
+    },
+    "jugadores": {
+      "1": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "247488945217077250",
+    "cerrado": false,
+    "utcInput": null,
+    "utcTimestamp": null,
+    "nota": "1",
+    "notaInferior": "1"
+  },
+  "1506905709583925258": {
+    "titulo": "Causa",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {},
+    "creador": "247488945217077250",
+    "cerrado": false,
+    "utcInput": "2026-05-20 01:30",
+    "utcTimestamp": 1779240600,
+    "nota": "hola",
+    "notaInferior": "adios"
+  },
+  "1506905848465854484": {
+    "titulo": "Causa",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS",
+      "14": "Clapper",
+      "15": "Pre Clapper / Stopper",
+      "16": "Shadowcaller",
+      "17": "Rompereinos (Casco de Caballero)",
+      "18": "Puas",
+      "19": "Colmillo",
+      "20": "Colmillo",
+      "21": "Colmillo",
+      "22": "Caza Espiritus",
+      "23": "Guantes Osunas",
+      "24": "Defensivo (Arbol)",
+      "25": "Healer (Nature con W de Briza)",
+      "26": "Sangradora DPS"
+    },
+    "jugadores": {},
+    "creador": "247488945217077250",
+    "cerrado": false,
+    "utcInput": "2026-05-20 01:30",
+    "utcTimestamp": 1779240600,
+    "nota": "hola",
+    "notaInferior": "adios"
+  },
+  "1506905942653014126": {
+    "titulo": "Causa",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS",
+      "14": "Clapper",
+      "15": "Pre Clapper / Stopper",
+      "16": "Shadowcaller",
+      "17": "Rompereinos (Casco de Caballero)",
+      "18": "Puas",
+      "19": "Colmillo",
+      "20": "Colmillo",
+      "21": "Colmillo",
+      "22": "Caza Espiritus",
+      "23": "Guantes Osunas",
+      "24": "Defensivo (Arbol)",
+      "25": "Healer (Nature con W de Briza)",
+      "26": "Sangradora DPS",
+      "27": "Clapper",
+      "28": "Pre Clapper / Stopper",
+      "29": "Shadowcaller",
+      "30": "Rompereinos (Casco de Caballero)",
+      "31": "Puas",
+      "32": "Colmillo",
+      "33": "Colmillo",
+      "34": "Colmillo",
+      "35": "Caza Espiritus",
+      "36": "Guantes Osunas",
+      "37": "Defensivo (Arbol)",
+      "38": "Healer (Nature con W de Briza)",
+      "39": "Sangradora DPS",
+      "40": "Clapper",
+      "41": "Pre Clapper / Stopper",
+      "42": "Shadowcaller",
+      "43": "Rompereinos (Casco de Caballero)",
+      "44": "Puas",
+      "45": "Colmillo",
+      "46": "Colmillo",
+      "47": "Colmillo",
+      "48": "Caza Espiritus",
+      "49": "Guantes Osunas",
+      "50": "Defensivo (Arbol)",
+      "51": "Healer (Nature con W de Briza)",
+      "52": "Sangradora DP"
+    },
+    "jugadores": {
+      "5": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "247488945217077250",
+    "cerrado": false,
+    "utcInput": "2026-05-21 05:30",
+    "utcTimestamp": 1779341400,
+    "nota": "adios",
+    "notaInferior": "hola"
+  },
+  "1506907482143068241": {
+    "titulo": "Causa",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS",
+      "14": "Clapper",
+      "15": "Pre Clapper / Stopper",
+      "16": "Shadowcaller",
+      "17": "Rompereinos (Casco de Caballero)",
+      "18": "Puas",
+      "19": "Colmillo",
+      "20": "Colmillo",
+      "21": "Colmillo",
+      "22": "Caza Espiritus",
+      "23": "Guantes Osunas",
+      "24": "Defensivo (Arbol)",
+      "25": "Healer (Nature con W de Briza)",
+      "26": "Sangradora DPS",
+      "27": "Clapper",
+      "28": "Pre Clapper / Stopper",
+      "29": "Shadowcaller",
+      "30": "Rompereinos (Casco de Caballero)",
+      "31": "Puas",
+      "32": "Colmillo",
+      "33": "Colmillo",
+      "34": "Colmillo",
+      "35": "Caza Espiritus",
+      "36": "Guantes Osunas",
+      "37": "Defensivo (Arbol)",
+      "38": "Healer (Nature con W de Briza)",
+      "39": "Sangradora DPS",
+      "40": "Clapper",
+      "41": "Pre Clapper / Stopper",
+      "42": "Shadowcaller",
+      "43": "Rompereinos (Casco de Caballero)",
+      "44": "Puas",
+      "45": "Colmillo",
+      "46": "Colmillo",
+      "47": "Colmillo",
+      "48": "Caza Espiritus",
+      "49": "Guantes Osunas",
+      "50": "Defensivo (Arbol)",
+      "51": "Healer (Nature con W de Briza)",
+      "52": "Sangradora DP"
+    },
+    "jugadores": {
+      "2": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "247488945217077250",
+    "cerrado": false,
+    "utcInput": "2025-05-22 03:30",
+    "utcTimestamp": 1747884600,
+    "nota": "hola",
+    "notaInferior": "adios"
+  },
+  "1506913594791694386": {
+    "titulo": "Sexo en el culo de Axecy",
+    "roles": {
+      "1": "Trola",
+      "2": "Puta"
+    },
+    "jugadores": {},
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "utcInput": "2026-05-20 01:30",
+    "utcTimestamp": 1779240600,
+    "nota": "Sexo",
+    "notaInferior": "Teta"
+  },
+  "1507063695241515080": {
+    "titulo": "Causa",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS",
+      "14": "Clapper",
+      "15": "Pre Clapper / Stopper",
+      "16": "Shadowcaller",
+      "17": "Rompereinos (Casco de Caballero)",
+      "18": "Puas",
+      "19": "Colmillo",
+      "20": "Colmillo",
+      "21": "Colmillo",
+      "22": "Caza Espiritus",
+      "23": "Guantes Osunas",
+      "24": "Defensivo (Arbol)",
+      "25": "Healer (Nature con W de Briza)",
+      "26": "Sangradora DPS",
+      "27": "Clapper",
+      "28": "Pre Clapper / Stopper",
+      "29": "Shadowcaller",
+      "30": "Rompereinos (Casco de Caballero)",
+      "31": "Puas",
+      "32": "Colmillo",
+      "33": "Colmillo",
+      "34": "Colmillo",
+      "35": "Caza Espiritus",
+      "36": "Guantes Osunas",
+      "37": "Defensivo (Arbol)",
+      "38": "Healer (Nature con W de Briza)",
+      "39": "Sangradora DPS",
+      "40": "Clapper",
+      "41": "Pre Clapper / Stopper",
+      "42": "Shadowcaller",
+      "43": "Rompereinos (Casco de Caballero)",
+      "44": "Puas",
+      "45": "Colmillo",
+      "46": "Colmillo",
+      "47": "Colmillo",
+      "48": "Caza Espiritus",
+      "49": "Guantes Osunas",
+      "50": "Defensivo (Arbol)",
+      "51": "Healer (Nature con W de Briza)",
+      "52": "Sangradora DP"
+    },
+    "jugadores": {},
+    "creador": "247488945217077250",
+    "cerrado": false,
+    "utcInput": "2026-05-26 11:30",
+    "utcTimestamp": 1779795000,
+    "nota": "hola",
+    "notaInferior": "adios"
+  },
+  "1507099716842815618": {
+    "titulo": "MASSEO 23:30 UTC CHASM",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {
+      "1": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "a_692d891797c8f0a8d4f14214f22e5980",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "3": {
+        "id": "1079492080528806068",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "sheilasrz",
+        "globalName": "Shizue",
+        "discriminator": "0",
+        "avatar": "f522b0ca43c20a94aee1ad6734a81787",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_f081c6b2c85c5ebe5df42f1c24d45bb5",
+          "skuId": "1306330662990643252"
+        },
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1677441367991,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "sheilasrz",
+        "avatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "guildTagBadgeURL": null
+      },
+      "5": {
+        "id": "950788938317062146",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "zarigueyahorny",
+        "globalName": "Longinus2468",
+        "discriminator": "0",
+        "avatar": "1909719ca0b9a99aa62a589bc3948b6f",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_75567bd9b6400f337d033428b24938a4",
+          "skuId": "1395905165839569179"
+        },
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1646756147699,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "zarigueyahorny",
+        "avatarURL": "https://cdn.discordapp.com/avatars/950788938317062146/1909719ca0b9a99aa62a589bc3948b6f.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/950788938317062146/1909719ca0b9a99aa62a589bc3948b6f.webp",
+        "guildTagBadgeURL": null
+      },
+      "6": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      },
+      "10": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      },
+      "13": {
+        "id": "333112548507385866",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "shaloow",
+        "globalName": "Shaloow",
+        "discriminator": "0",
+        "avatar": "64b5aaa160e78461eaa352e14200b9f5",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1499490620496,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "tag": "shaloow",
+        "avatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "utcInput": "2026-05-21 23:30",
+    "utcTimestamp": 1779406200,
+    "nota": "FULL SEXO EN CASA DE AXECY",
+    "notaInferior": null
+  },
+  "1507187078562054264": {
+    "titulo": "MASSEO 01:30 UTC",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {
+      "1": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "a_692d891797c8f0a8d4f14214f22e5980",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "3": {
+        "id": "1079492080528806068",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "sheilasrz",
+        "globalName": "Shizue",
+        "discriminator": "0",
+        "avatar": "f522b0ca43c20a94aee1ad6734a81787",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_f081c6b2c85c5ebe5df42f1c24d45bb5",
+          "skuId": "1306330662990643252"
+        },
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1677441367991,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "sheilasrz",
+        "avatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "guildTagBadgeURL": null
+      },
+      "6": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      },
+      "7": {
+        "id": "751952925999235162",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "eliandoski",
+        "globalName": "Eliandoski",
+        "discriminator": "0",
+        "avatar": "8baf571d69d4fcc907c96f4e48fb90fe",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1377377712162738196",
+            "asset": "nameplates/nameplates_v2/sword_of_legend/",
+            "label": "COLLECTIBLES_NAMEPLATES_V2_SWORD_OF_LEGEND_A11Y",
+            "palette": "cobalt"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1599349948168,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "eliandoski",
+        "avatarURL": "https://cdn.discordapp.com/avatars/751952925999235162/8baf571d69d4fcc907c96f4e48fb90fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/751952925999235162/8baf571d69d4fcc907c96f4e48fb90fe.webp",
+        "guildTagBadgeURL": null
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      },
+      "10": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "utcInput": "2026-05-21 01:30",
+    "utcTimestamp": 1779327000,
+    "nota": "FULL SEXO EN EL CULO DE CRONUSX",
+    "notaInferior": null
+  },
+  "1507452519033340134": {
+    "titulo": "MASSEO 23:30 UTC CHASM",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {
+      "1": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "a_692d891797c8f0a8d4f14214f22e5980",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "2": {
+        "id": "335802174707728384",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "stfranciss",
+        "globalName": "Francis",
+        "discriminator": "0",
+        "avatar": "57c0f55128b4ead06315bc00a02717fe",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_9450b11728cd18bf686d45513559ddb1",
+          "skuId": "1357589632514134107"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1349849614227865711",
+            "asset": "nameplates/nameplates/koi_pond/",
+            "label": "COLLECTIBLES_NAMEPLATES_KOI_POND_A11Y",
+            "palette": "sky"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "594296025561169926",
+          "identityEnabled": true,
+          "tag": "SUS",
+          "badge": "79366e8660935912726217b413fcc19b"
+        },
+        "createdTimestamp": 1500131877353,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "hexAccentColor": null,
+        "tag": "stfranciss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/594296025561169926/79366e8660935912726217b413fcc19b.webp"
+      },
+      "3": {
+        "id": "1079492080528806068",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "sheilasrz",
+        "globalName": "Shizue",
+        "discriminator": "0",
+        "avatar": "f522b0ca43c20a94aee1ad6734a81787",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_f081c6b2c85c5ebe5df42f1c24d45bb5",
+          "skuId": "1306330662990643252"
+        },
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1677441367991,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "sheilasrz",
+        "avatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "guildTagBadgeURL": null
+      },
+      "5": {
+        "id": "333112548507385866",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "shaloow",
+        "globalName": "Shaloow",
+        "discriminator": "0",
+        "avatar": "64b5aaa160e78461eaa352e14200b9f5",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1499490620496,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "tag": "shaloow",
+        "avatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "guildTagBadgeURL": null
+      },
+      "6": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      },
+      "8": {
+        "id": "290244843114987521",
+        "bot": false,
+        "system": false,
+        "flags": 64,
+        "username": "zattami",
+        "globalName": "Zam",
+        "discriminator": "0",
+        "avatar": "9929b855c221549aedc643a2a761e5a5",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "523059903812599811",
+          "identityEnabled": true,
+          "tag": "HYTL",
+          "badge": "90a3edbdc5465bd6b6574adadb29b32e"
+        },
+        "createdTimestamp": 1489270163087,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "zattami",
+        "avatarURL": "https://cdn.discordapp.com/avatars/290244843114987521/9929b855c221549aedc643a2a761e5a5.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/290244843114987521/9929b855c221549aedc643a2a761e5a5.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/523059903812599811/90a3edbdc5465bd6b6574adadb29b32e.webp"
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      },
+      "10": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "utcInput": "2026-05-22 23:30",
+    "utcTimestamp": 1779492600,
+    "nota": "FULL SEXO EN CASA DE AXECY",
+    "notaInferior": null
+  },
+  "1507546516787822764": {
+    "titulo": "MASSEO 01:30 UTC",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {
+      "1": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "a_692d891797c8f0a8d4f14214f22e5980",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "3": {
+        "id": "1079492080528806068",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "sheilasrz",
+        "globalName": "Shizue",
+        "discriminator": "0",
+        "avatar": "f522b0ca43c20a94aee1ad6734a81787",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_f081c6b2c85c5ebe5df42f1c24d45bb5",
+          "skuId": "1306330662990643252"
+        },
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1677441367991,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "sheilasrz",
+        "avatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "guildTagBadgeURL": null
+      },
+      "4": {
+        "id": "576540360193343488",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "cronus55",
+        "globalName": "Cronusx55",
+        "discriminator": "0",
+        "avatar": "97ac0797bb22aa163f4bdb7d429634de",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_7e68c00aa5c50a066b4eb66209204315",
+          "skuId": "1432550258126229565"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1427463138646954036",
+            "asset": "nameplates/orb/magical_mist/",
+            "label": "COLLECTIBLES_ORB_MAGIC_MISTS_NP_A11Y",
+            "palette": "cobalt"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1557528333472,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "cronus55",
+        "avatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "guildTagBadgeURL": null
+      },
+      "5": {
+        "id": "594416751874408449",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "ratonqlouwu",
+        "globalName": "Ratonqlouwu",
+        "discriminator": "0",
+        "avatar": "5833c9bb79c84977ed20a6b77b441354",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1561790397376,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "ratonqlouwu",
+        "avatarURL": "https://cdn.discordapp.com/avatars/594416751874408449/5833c9bb79c84977ed20a6b77b441354.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/594416751874408449/5833c9bb79c84977ed20a6b77b441354.webp",
+        "guildTagBadgeURL": null
+      },
+      "6": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      },
+      "7": {
+        "id": "133759059655524352",
+        "bot": false,
+        "system": false,
+        "flags": 256,
+        "username": "outzc",
+        "globalName": "Outzc",
+        "discriminator": "0",
+        "avatar": "b5ee0637f364853af0cca0be4e7ea7ad",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1451961044945,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "outzc",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      },
+      "10": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      },
+      "13": {
+        "id": "333112548507385866",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "shaloow",
+        "globalName": "Shaloow",
+        "discriminator": "0",
+        "avatar": "64b5aaa160e78461eaa352e14200b9f5",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1499490620496,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "tag": "shaloow",
+        "avatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "utcInput": "2026-05-21 01:30",
+    "utcTimestamp": 1779327000,
+    "nota": "FULL SEXO EN CASA DE AXECY",
+    "notaInferior": null
+  },
+  "1507831905448628245": {
+    "titulo": "Masseo 23:30 UTC",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {
+      "1": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "a_692d891797c8f0a8d4f14214f22e5980",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "2": {
+        "id": "335802174707728384",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "stfranciss",
+        "globalName": "Francis",
+        "discriminator": "0",
+        "avatar": "57c0f55128b4ead06315bc00a02717fe",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_9450b11728cd18bf686d45513559ddb1",
+          "skuId": "1357589632514134107"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1349849614227865711",
+            "asset": "nameplates/nameplates/koi_pond/",
+            "label": "COLLECTIBLES_NAMEPLATES_KOI_POND_A11Y",
+            "palette": "sky"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "594296025561169926",
+          "identityEnabled": true,
+          "tag": "SUS",
+          "badge": "79366e8660935912726217b413fcc19b"
+        },
+        "createdTimestamp": 1500131877353,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "hexAccentColor": null,
+        "tag": "stfranciss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/594296025561169926/79366e8660935912726217b413fcc19b.webp"
+      },
+      "4": {
+        "id": "576540360193343488",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "cronus55",
+        "globalName": "Cronusx55",
+        "discriminator": "0",
+        "avatar": "97ac0797bb22aa163f4bdb7d429634de",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_7e68c00aa5c50a066b4eb66209204315",
+          "skuId": "1432550258126229565"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1427463138646954036",
+            "asset": "nameplates/orb/magical_mist/",
+            "label": "COLLECTIBLES_ORB_MAGIC_MISTS_NP_A11Y",
+            "palette": "cobalt"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1557528333472,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "cronus55",
+        "avatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "guildTagBadgeURL": null
+      },
+      "5": {
+        "id": "333112548507385866",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "shaloow",
+        "globalName": "Shaloow",
+        "discriminator": "0",
+        "avatar": "64b5aaa160e78461eaa352e14200b9f5",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1499490620496,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "tag": "shaloow",
+        "avatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "guildTagBadgeURL": null
+      },
+      "6": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      },
+      "7": {
+        "id": "133759059655524352",
+        "bot": false,
+        "system": false,
+        "flags": 256,
+        "username": "outzc",
+        "globalName": "Outzc",
+        "discriminator": "0",
+        "avatar": "b5ee0637f364853af0cca0be4e7ea7ad",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1451961044945,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "outzc",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "8": {
+        "id": "751952925999235162",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "eliandoski",
+        "globalName": "Eliandoski",
+        "discriminator": "0",
+        "avatar": "8baf571d69d4fcc907c96f4e48fb90fe",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1377377712162738196",
+            "asset": "nameplates/nameplates_v2/sword_of_legend/",
+            "label": "COLLECTIBLES_NAMEPLATES_V2_SWORD_OF_LEGEND_A11Y",
+            "palette": "cobalt"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1599349948168,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "eliandoski",
+        "avatarURL": "https://cdn.discordapp.com/avatars/751952925999235162/8baf571d69d4fcc907c96f4e48fb90fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/751952925999235162/8baf571d69d4fcc907c96f4e48fb90fe.webp",
+        "guildTagBadgeURL": null
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      },
+      "10": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "utcInput": "2026-05-23 23:30",
+    "utcTimestamp": 1779579000,
+    "nota": "FULL SEXO EN LA CASA DE SHALOOW",
+    "notaInferior": null
+  },
+  "1507903950395936849": {
+    "titulo": "MASSEO 01:30 UTC",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {
+      "1": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "a_692d891797c8f0a8d4f14214f22e5980",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "2": {
+        "id": "335802174707728384",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "stfranciss",
+        "globalName": "Francis",
+        "discriminator": "0",
+        "avatar": "57c0f55128b4ead06315bc00a02717fe",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_9450b11728cd18bf686d45513559ddb1",
+          "skuId": "1357589632514134107"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1349849614227865711",
+            "asset": "nameplates/nameplates/koi_pond/",
+            "label": "COLLECTIBLES_NAMEPLATES_KOI_POND_A11Y",
+            "palette": "sky"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "594296025561169926",
+          "identityEnabled": true,
+          "tag": "SUS",
+          "badge": "79366e8660935912726217b413fcc19b"
+        },
+        "createdTimestamp": 1500131877353,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "hexAccentColor": null,
+        "tag": "stfranciss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/594296025561169926/79366e8660935912726217b413fcc19b.webp"
+      },
+      "3": {
+        "id": "1079492080528806068",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "sheilasrz",
+        "globalName": "Shizue",
+        "discriminator": "0",
+        "avatar": "f522b0ca43c20a94aee1ad6734a81787",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_f081c6b2c85c5ebe5df42f1c24d45bb5",
+          "skuId": "1306330662990643252"
+        },
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1677441367991,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "sheilasrz",
+        "avatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "guildTagBadgeURL": null
+      },
+      "4": {
+        "id": "576540360193343488",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "cronus55",
+        "globalName": "Cronusx55",
+        "discriminator": "0",
+        "avatar": "97ac0797bb22aa163f4bdb7d429634de",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_7e68c00aa5c50a066b4eb66209204315",
+          "skuId": "1432550258126229565"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1427463138646954036",
+            "asset": "nameplates/orb/magical_mist/",
+            "label": "COLLECTIBLES_ORB_MAGIC_MISTS_NP_A11Y",
+            "palette": "cobalt"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1557528333472,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "cronus55",
+        "avatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/576540360193343488/97ac0797bb22aa163f4bdb7d429634de.webp",
+        "guildTagBadgeURL": null
+      },
+      "6": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      },
+      "7": {
+        "id": "133759059655524352",
+        "bot": false,
+        "system": false,
+        "flags": 256,
+        "username": "outzc",
+        "globalName": "Outzc",
+        "discriminator": "0",
+        "avatar": "b5ee0637f364853af0cca0be4e7ea7ad",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1451961044945,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "outzc",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      },
+      "10": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "utcInput": "2026-05-23 01:30",
+    "utcTimestamp": 1779499800,
+    "nota": "FULL SEXO EN LA CASA DE AXECY",
+    "notaInferior": null
+  },
+  "1507936389331816458": {
+    "titulo": "MASSEO 03:30 UTC",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {
+      "1": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "a_692d891797c8f0a8d4f14214f22e5980",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "2": {
+        "id": "335802174707728384",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "stfranciss",
+        "globalName": "Francis",
+        "discriminator": "0",
+        "avatar": "57c0f55128b4ead06315bc00a02717fe",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_9450b11728cd18bf686d45513559ddb1",
+          "skuId": "1357589632514134107"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1349849614227865711",
+            "asset": "nameplates/nameplates/koi_pond/",
+            "label": "COLLECTIBLES_NAMEPLATES_KOI_POND_A11Y",
+            "palette": "sky"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "594296025561169926",
+          "identityEnabled": true,
+          "tag": "SUS",
+          "badge": "79366e8660935912726217b413fcc19b"
+        },
+        "createdTimestamp": 1500131877353,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "hexAccentColor": null,
+        "tag": "stfranciss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/594296025561169926/79366e8660935912726217b413fcc19b.webp"
+      },
+      "3": {
+        "id": "1079492080528806068",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "sheilasrz",
+        "globalName": "Shizue",
+        "discriminator": "0",
+        "avatar": "f522b0ca43c20a94aee1ad6734a81787",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_f081c6b2c85c5ebe5df42f1c24d45bb5",
+          "skuId": "1306330662990643252"
+        },
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1677441367991,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "sheilasrz",
+        "avatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "guildTagBadgeURL": null
+      },
+      "4": {
+        "id": "546066320538730496",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "axecy",
+        "globalName": "Axecy",
+        "discriminator": "0",
+        "avatar": "a_4b6ad18ec51a111d21ce3324b6e89835",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1369047464073498776",
+          "identityEnabled": true,
+          "tag": "MIKU",
+          "badge": "d84985dab45c3cdcf569e45b89851750"
+        },
+        "createdTimestamp": 1550262756238,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "axecy",
+        "avatarURL": "https://cdn.discordapp.com/avatars/546066320538730496/a_4b6ad18ec51a111d21ce3324b6e89835.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/546066320538730496/a_4b6ad18ec51a111d21ce3324b6e89835.gif",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1369047464073498776/d84985dab45c3cdcf569e45b89851750.webp"
+      },
+      "5": {
+        "id": "484501177233309716",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "mryorddle",
+        "globalName": "akumadesu",
+        "discriminator": "0",
+        "avatar": "d03e23dc0ce4defb0239805c5b3cf1ce",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1445176368458502177",
+          "identityEnabled": true,
+          "tag": "DOWN",
+          "badge": "fa9cc80236e71715c90d24db7ee9eb53"
+        },
+        "createdTimestamp": 1535584482249,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/3.png",
+        "tag": "mryorddle",
+        "avatarURL": "https://cdn.discordapp.com/avatars/484501177233309716/d03e23dc0ce4defb0239805c5b3cf1ce.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/484501177233309716/d03e23dc0ce4defb0239805c5b3cf1ce.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1445176368458502177/fa9cc80236e71715c90d24db7ee9eb53.webp"
+      },
+      "6": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      },
+      "7": {
+        "id": "133759059655524352",
+        "bot": false,
+        "system": false,
+        "flags": 256,
+        "username": "outzc",
+        "globalName": "Outzc",
+        "discriminator": "0",
+        "avatar": "b5ee0637f364853af0cca0be4e7ea7ad",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1451961044945,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "outzc",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      },
+      "10": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      },
+      "12": {
+        "id": "333112548507385866",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "shaloow",
+        "globalName": "Shaloow",
+        "discriminator": "0",
+        "avatar": "64b5aaa160e78461eaa352e14200b9f5",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1499490620496,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "tag": "shaloow",
+        "avatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "utcInput": "2026-05-23 03:30",
+    "utcTimestamp": 1779507000,
+    "nota": "FULL SEXO EN EL CULO DE AXECY",
+    "notaInferior": "Cronusx esta castigado por reprobar ingles"
+  },
+  "1508241985952153811": {
+    "titulo": "MASSEO 01:30 UTC",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {
+      "1": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "a_692d891797c8f0a8d4f14214f22e5980",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "3": {
+        "id": "1079492080528806068",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "sheilasrz",
+        "globalName": "Shizue",
+        "discriminator": "0",
+        "avatar": "f522b0ca43c20a94aee1ad6734a81787",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_f081c6b2c85c5ebe5df42f1c24d45bb5",
+          "skuId": "1306330662990643252"
+        },
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1677441367991,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "sheilasrz",
+        "avatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "guildTagBadgeURL": null
+      },
+      "4": {
+        "id": "546066320538730496",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "axecy",
+        "globalName": "Axecy",
+        "discriminator": "0",
+        "avatar": "a_4b6ad18ec51a111d21ce3324b6e89835",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1369047464073498776",
+          "identityEnabled": true,
+          "tag": "MIKU",
+          "badge": "d84985dab45c3cdcf569e45b89851750"
+        },
+        "createdTimestamp": 1550262756238,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "axecy",
+        "avatarURL": "https://cdn.discordapp.com/avatars/546066320538730496/a_4b6ad18ec51a111d21ce3324b6e89835.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/546066320538730496/a_4b6ad18ec51a111d21ce3324b6e89835.gif",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1369047464073498776/d84985dab45c3cdcf569e45b89851750.webp"
+      },
+      "5": {
+        "id": "594416751874408449",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "ratonqlouwu",
+        "globalName": "Ratonqlouwu",
+        "discriminator": "0",
+        "avatar": "5833c9bb79c84977ed20a6b77b441354",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1561790397376,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "ratonqlouwu",
+        "avatarURL": "https://cdn.discordapp.com/avatars/594416751874408449/5833c9bb79c84977ed20a6b77b441354.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/594416751874408449/5833c9bb79c84977ed20a6b77b441354.webp",
+        "guildTagBadgeURL": null
+      },
+      "6": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      },
+      "7": {
+        "id": "133759059655524352",
+        "bot": false,
+        "system": false,
+        "flags": 256,
+        "username": "outzc",
+        "globalName": "Outzc",
+        "discriminator": "0",
+        "avatar": "b5ee0637f364853af0cca0be4e7ea7ad",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1451961044945,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "outzc",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "8": {
+        "id": "751952925999235162",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "eliandoski",
+        "globalName": "Eliandoski",
+        "discriminator": "0",
+        "avatar": "8baf571d69d4fcc907c96f4e48fb90fe",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1377377712162738196",
+            "asset": "nameplates/nameplates_v2/sword_of_legend/",
+            "label": "COLLECTIBLES_NAMEPLATES_V2_SWORD_OF_LEGEND_A11Y",
+            "palette": "cobalt"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1599349948168,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "eliandoski",
+        "avatarURL": "https://cdn.discordapp.com/avatars/751952925999235162/8baf571d69d4fcc907c96f4e48fb90fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/751952925999235162/8baf571d69d4fcc907c96f4e48fb90fe.webp",
+        "guildTagBadgeURL": null
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      },
+      "10": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "utcInput": "2026-05-24 01:30",
+    "utcTimestamp": 1779586200,
+    "nota": "ULTIMO DIA DE DABOSS EN ZONA NEGRA PIPIPI",
+    "notaInferior": null
+  },
+  "1508310397705388052": {
+    "titulo": "No se si hay pelea masseo chico",
+    "roles": {
+      "1": "Clapper",
+      "2": "Rompe",
+      "3": "Rompe",
+      "4": "DPS",
+      "5": "DPS"
+    },
+    "jugadores": {
+      "1": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "a_692d891797c8f0a8d4f14214f22e5980",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "2": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      },
+      "3": {
+        "id": "546066320538730496",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "axecy",
+        "globalName": "Axecy",
+        "discriminator": "0",
+        "avatar": "a_4b6ad18ec51a111d21ce3324b6e89835",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1369047464073498776",
+          "identityEnabled": true,
+          "tag": "MIKU",
+          "badge": "d84985dab45c3cdcf569e45b89851750"
+        },
+        "createdTimestamp": 1550262756238,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "axecy",
+        "avatarURL": "https://cdn.discordapp.com/avatars/546066320538730496/a_4b6ad18ec51a111d21ce3324b6e89835.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/546066320538730496/a_4b6ad18ec51a111d21ce3324b6e89835.gif",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1369047464073498776/d84985dab45c3cdcf569e45b89851750.webp"
+      },
+      "4": {
+        "id": "133786737230086155",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "winnietricks",
+        "globalName": "WinnieTricks",
+        "discriminator": "0",
+        "avatar": "7fa6c5ea872facb615c101ba13e74945",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1451967643793,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "winnietricks",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133786737230086155/7fa6c5ea872facb615c101ba13e74945.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133786737230086155/7fa6c5ea872facb615c101ba13e74945.webp",
+        "guildTagBadgeURL": null
+      },
+      "5": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "utcInput": null,
+    "utcTimestamp": null,
+    "nota": "Sexo e bom",
+    "notaInferior": null
+  },
+  "1508625954615070750": {
+    "titulo": "SMASHEO 01:45 UTC",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {
+      "1": {
+        "id": "390991702640427009",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "brenshield",
+        "globalName": "BrenShield",
+        "discriminator": "0",
+        "avatar": "a_692d891797c8f0a8d4f14214f22e5980",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_741750ac1c9091a58059be33590c2821",
+          "skuId": "1424960507143524495"
+        },
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1513290086184,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "hexAccentColor": null,
+        "tag": "brenshield",
+        "avatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/390991702640427009/a_692d891797c8f0a8d4f14214f22e5980.gif",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "2": {
+        "id": "335802174707728384",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "stfranciss",
+        "globalName": "Francis",
+        "discriminator": "0",
+        "avatar": "57c0f55128b4ead06315bc00a02717fe",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_9450b11728cd18bf686d45513559ddb1",
+          "skuId": "1357589632514134107"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1349849614227865711",
+            "asset": "nameplates/nameplates/koi_pond/",
+            "label": "COLLECTIBLES_NAMEPLATES_KOI_POND_A11Y",
+            "palette": "sky"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "594296025561169926",
+          "identityEnabled": true,
+          "tag": "SUS",
+          "badge": "79366e8660935912726217b413fcc19b"
+        },
+        "createdTimestamp": 1500131877353,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "hexAccentColor": null,
+        "tag": "stfranciss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/335802174707728384/57c0f55128b4ead06315bc00a02717fe.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/594296025561169926/79366e8660935912726217b413fcc19b.webp"
+      },
+      "3": {
+        "id": "1079492080528806068",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "sheilasrz",
+        "globalName": "Shizue",
+        "discriminator": "0",
+        "avatar": "f522b0ca43c20a94aee1ad6734a81787",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_f081c6b2c85c5ebe5df42f1c24d45bb5",
+          "skuId": "1306330662990643252"
+        },
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1677441367991,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "sheilasrz",
+        "avatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/1079492080528806068/f522b0ca43c20a94aee1ad6734a81787.webp",
+        "guildTagBadgeURL": null
+      },
+      "4": {
+        "id": "546066320538730496",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "axecy",
+        "globalName": "Axecy",
+        "discriminator": "0",
+        "avatar": "a_4b6ad18ec51a111d21ce3324b6e89835",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1369047464073498776",
+          "identityEnabled": true,
+          "tag": "MIKU",
+          "badge": "d84985dab45c3cdcf569e45b89851750"
+        },
+        "createdTimestamp": 1550262756238,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "axecy",
+        "avatarURL": "https://cdn.discordapp.com/avatars/546066320538730496/a_4b6ad18ec51a111d21ce3324b6e89835.gif",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/546066320538730496/a_4b6ad18ec51a111d21ce3324b6e89835.gif",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1369047464073498776/d84985dab45c3cdcf569e45b89851750.webp"
+      },
+      "5": {
+        "id": "594416751874408449",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "ratonqlouwu",
+        "globalName": "Ratonqlouwu",
+        "discriminator": "0",
+        "avatar": "5833c9bb79c84977ed20a6b77b441354",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1561790397376,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "ratonqlouwu",
+        "avatarURL": "https://cdn.discordapp.com/avatars/594416751874408449/5833c9bb79c84977ed20a6b77b441354.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/594416751874408449/5833c9bb79c84977ed20a6b77b441354.webp",
+        "guildTagBadgeURL": null
+      },
+      "6": {
+        "id": "133786737230086155",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "winnietricks",
+        "globalName": "WinnieTricks",
+        "discriminator": "0",
+        "avatar": "7fa6c5ea872facb615c101ba13e74945",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1451967643793,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "winnietricks",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133786737230086155/7fa6c5ea872facb615c101ba13e74945.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133786737230086155/7fa6c5ea872facb615c101ba13e74945.webp",
+        "guildTagBadgeURL": null
+      },
+      "7": {
+        "id": "431668229161877524",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "donkion",
+        "globalName": "DonKion",
+        "discriminator": "0",
+        "avatar": "a00e6ee937b9906c0d77a4bab34888b8",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "645607528297922560",
+          "identityEnabled": true,
+          "tag": "TFT",
+          "badge": "2d9908aeb26b0c8d246dbd97f8258a72"
+        },
+        "createdTimestamp": 1522988125840,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "donkion",
+        "avatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/431668229161877524/a00e6ee937b9906c0d77a4bab34888b8.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/645607528297922560/2d9908aeb26b0c8d246dbd97f8258a72.webp"
+      },
+      "8": {
+        "id": "133759059655524352",
+        "bot": false,
+        "system": false,
+        "flags": 256,
+        "username": "outzc",
+        "globalName": "Outzc",
+        "discriminator": "0",
+        "avatar": "b5ee0637f364853af0cca0be4e7ea7ad",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": {
+          "identityGuildId": "1299191689923133560",
+          "identityEnabled": true,
+          "tag": "SURG",
+          "badge": "7673b92c4cd661732fdcae5cb4081918"
+        },
+        "createdTimestamp": 1451961044945,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+        "tag": "outzc",
+        "avatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/133759059655524352/b5ee0637f364853af0cca0be4e7ea7ad.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1299191689923133560/7673b92c4cd661732fdcae5cb4081918.webp"
+      },
+      "9": {
+        "id": "260030981937823745",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "soniwiss",
+        "globalName": "Soniwiss",
+        "discriminator": "0",
+        "avatar": "f5e844a0e01867a8f8a9cbc1f806809e",
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_d7634185acdee36579be8ac5fc6e2ba2",
+          "skuId": "1447654091286253660"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1417311919429128312",
+            "asset": "nameplates/nameplate_bonanza/berry_bunny/",
+            "label": "COLLECTIBLES_NAMEPLATE_BONANZA_BERRY_BUNNY_NP_A11Y",
+            "palette": "berry"
+          }
+        },
+        "primaryGuild": {
+          "identityGuildId": "776618516891041823",
+          "identityEnabled": true,
+          "tag": "WISS",
+          "badge": "878c62b6694a4f5931104f766191bec7"
+        },
+        "createdTimestamp": 1482066617236,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+        "tag": "soniwiss",
+        "avatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/260030981937823745/f5e844a0e01867a8f8a9cbc1f806809e.webp",
+        "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/776618516891041823/878c62b6694a4f5931104f766191bec7.webp"
+      },
+      "10": {
+        "id": "247488945217077250",
+        "bot": false,
+        "system": false,
+        "flags": 128,
+        "username": "kaweshk",
+        "globalName": "Kaweshk",
+        "discriminator": "0",
+        "avatar": "f7cef180afb88f41c105490900dd055b",
+        "banner": null,
+        "accentColor": null,
+        "avatarDecoration": null,
+        "avatarDecorationData": {
+          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
+          "skuId": "1207047014769234001"
+        },
+        "collectibles": {
+          "nameplate": {
+            "skuId": "1447654091240116366",
+            "asset": "nameplates/zodiac/scorpio/",
+            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
+            "palette": "violet"
+          }
+        },
+        "primaryGuild": null,
+        "createdTimestamp": 1479076362662,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "hexAccentColor": null,
+        "tag": "kaweshk",
+        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
+        "bannerURL": null,
+        "guildTagBadgeURL": null
+      },
+      "12": {
+        "id": "426964097179844608",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "kuky17",
+        "globalName": "Kuky",
+        "discriminator": "0",
+        "avatar": "4a290cb7ed22e0e93b111b2c0f9a6b77",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1521866573377,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+        "tag": "kuky17",
+        "avatarURL": "https://cdn.discordapp.com/avatars/426964097179844608/4a290cb7ed22e0e93b111b2c0f9a6b77.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/426964097179844608/4a290cb7ed22e0e93b111b2c0f9a6b77.webp",
+        "guildTagBadgeURL": null
+      },
+      "13": {
+        "id": "333112548507385866",
+        "bot": false,
+        "system": false,
+        "flags": 0,
+        "username": "shaloow",
+        "globalName": "Shaloow",
+        "discriminator": "0",
+        "avatar": "64b5aaa160e78461eaa352e14200b9f5",
+        "avatarDecoration": null,
+        "avatarDecorationData": null,
+        "collectibles": null,
+        "primaryGuild": null,
+        "createdTimestamp": 1499490620496,
+        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "tag": "shaloow",
+        "avatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "displayAvatarURL": "https://cdn.discordapp.com/avatars/333112548507385866/64b5aaa160e78461eaa352e14200b9f5.webp",
+        "guildTagBadgeURL": null
+      }
+    },
+    "creador": "390991702640427009",
+    "cerrado": false,
+    "utcInput": "2026-05-25 01:45",
+    "utcTimestamp": 1779673500,
+    "nota": "Necesito gente solamente para smashear un HO rapido. No habra pelea, no habra nada pero estaremos solos martillando con Goose pareciera.",
+    "notaInferior": "Comprense un martillo T7 en MGR"
+  }
+}

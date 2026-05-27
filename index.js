@@ -1,5 +1,7 @@
 require('dotenv').config();
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
+const fs = require('node:fs/promises');
+const { existsSync, readFileSync } = require('node:fs');
 
 const client = new Client({
   intents: [
@@ -9,7 +11,33 @@ const client = new Client({
   ]
 });
 
+const PATH_ARCHIVO = './inscripciones.txt';
+
+// Cargar datos al iniciar
 let inscripciones = {};
+
+function cargarDatos() {
+  if (existsSync(PATH_ARCHIVO)) {
+    try {
+      const data = readFileSync(PATH_ARCHIVO, 'utf8');
+      return JSON.parse(data);
+    } catch (error) {
+      console.error("Error al leer el archivo de inscripciones:", error);
+      return {};
+    }
+  }
+  return {};
+}
+
+inscripciones = cargarDatos();
+
+async function guardarDatos() {
+  try {
+    await fs.writeFile(PATH_ARCHIVO, JSON.stringify(inscripciones, null, 2), 'utf8');
+  } catch (error) {
+    console.error("Error al guardar el archivo de inscripciones:", error);
+  }
+}
 
 client.once('ready', () => {
   console.log(`Bot iniciado como ${client.user.tag}`);
@@ -18,101 +46,101 @@ client.once('ready', () => {
 client.on('interactionCreate', async (interaction) => {
   if (!interaction.isChatInputCommand()) return;
 
-// =========================
-// CREAR INSCRIPCIONES
-// =========================
-if (interaction.commandName === 'inscripciones') {
-  await interaction.deferReply(); //  evita timeout
+  // =========================
+  // CREAR INSCRIPCIONES
+  // =========================
+  if (interaction.commandName === 'inscripciones') {
+    await interaction.deferReply(); // evita timeout
 
-  const titulo = interaction.options.getString('titulo');
-  const cantidad = interaction.options.getInteger('cantidad');
-  const rolesInput = interaction.options.getString('roles').split(",");
-  const tagRol = interaction.options.getRole('tag');
-  const utcInput = interaction.options.getString('utc');
-  const nota = interaction.options.getString('nota'); 
-  const notaInferior = interaction.options.getString('nota_inferior'); 
+    const titulo = interaction.options.getString('titulo');
+    const cantidad = interaction.options.getInteger('cantidad');
+    const rolesInput = interaction.options.getString('roles').split(",");
+    const tagRol = interaction.options.getRole('tag');
+    const utcInput = interaction.options.getString('utc');
+    const nota = interaction.options.getString('nota'); 
+    const notaInferior = interaction.options.getString('nota_inferior'); 
 
-  const utcTimestamp = utcInput ? parseUtcInput(utcInput) : null;
-  if (utcInput && !utcTimestamp) {
-    return interaction.editReply("Formato UTC inválido. Usa YYYY-MM-DD HH:mm o YYYY-MM-DDTHH:mm.");
-  }
+    const utcTimestamp = utcInput ? parseUtcInput(utcInput) : null;
+    if (utcInput && !utcTimestamp) {
+      return interaction.editReply("Formato UTC inválido. Usa YYYY-MM-DD HH:mm o YYYY-MM-DDTHH:mm.");
+    }
 
-  if (rolesInput.length !== cantidad) {
-    return interaction.editReply("La cantidad de roles no coincide con el número indicado.");
-  }
+    if (rolesInput.length !== cantidad) {
+      return interaction.editReply("La cantidad de roles no coincide con el número indicado.");
+    }
 
-  let listaRoles = {};
-  rolesInput.forEach((rol, i) => listaRoles[i+1] = rol.trim());
+    let listaRoles = {};
+    rolesInput.forEach((rol, i) => listaRoles[i+1] = rol.trim());
 
-  const descriptionLines = [];
-  if (utcTimestamp) {
-    const utcTime = formatUtcTimeFromTimestamp(utcTimestamp);
-    descriptionLines.push(`**Timmer: ${utcTime} - <t:${utcTimestamp}:t>**`);
-  }
-  if (nota) descriptionLines.push(`**${nota}**`);
+    const descriptionLines = [];
+    if (utcTimestamp) {
+      const utcTime = formatUtcTimeFromTimestamp(utcTimestamp);
+      descriptionLines.push(`**Timmer: ${utcTime} - <t:${utcTimestamp}:t>**`);
+    }
+    if (nota) descriptionLines.push(`**${nota}**`);
 
-  const totalRoles = Object.keys(listaRoles).length;
-  const occupied = 0;
-  const estado = 'Abierto';
+    const totalRoles = Object.keys(listaRoles).length;
+    const occupied = 0;
+    const estado = 'Abierto';
 
-  //  Evitar descripción vacía
-  const desc = descriptionLines.length > 0 ? descriptionLines.join("\n") : " ";
+    // Evitar descripción vacía
+    const desc = descriptionLines.length > 0 ? descriptionLines.join("\n") : " ";
 
-  const embed = new EmbedBuilder()
-    .setTitle(`\u200B${titulo}\u200B`)
-    .setColor(0x1F8BFF)
-    .setDescription(desc)
-    .setFooter({ 
-      text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X(Numero que escogiste)'." 
+    const embed = new EmbedBuilder()
+      .setTitle(`\u200B${titulo}\u200B`)
+      .setColor(0x1F8BFF)
+      .setDescription(desc)
+      .setFooter({ 
+        text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X(Numero que escogiste)'." 
+      });
+
+    embed.addFields(
+      { name: '\u200B', value: '\u200B', inline: false },
+      { name: 'Estado', value: `**${estado}**`, inline: true },
+      { name: '\u200B', value: '\u200B', inline: true },
+      { name: 'Cupos', value: `**${occupied}/${totalRoles}**`, inline: true },
+    );
+    // Dividir roles en partidas de 20
+    const rolesArray = Object.entries(listaRoles);
+    const rolesPerParty = 20;
+    for (let i = 0; i < rolesArray.length; i += rolesPerParty) {
+      const partyNum = Math.floor(i / rolesPerParty) + 1;
+      const partyRoles = rolesArray.slice(i, i + rolesPerParty)
+        .map(([num, rol]) => `${num}. **${rol.toUpperCase()} - (Vacante)**`).join("\n");
+      embed.addFields({ name: `Party ${partyNum}`, value: partyRoles, inline: false });
+    }
+    if (notaInferior) {
+      embed.addFields({ name: '\u200B', value: `**${notaInferior}**`, inline: false });
+    }
+
+    const sentMessage = await interaction.editReply({
+      content: tagRol ? `<@&${tagRol.id}>` : undefined,
+      embeds: [embed],
+      allowedMentions: tagRol ? { roles: [tagRol.id] } : undefined
     });
 
-  embed.addFields(
-    { name: '\u200B', value: '\u200B', inline: false },
-    { name: 'Estado', value: `**${estado}**`, inline: true },
-    { name: '\u200B', value: '\u200B', inline: true },
-    { name: 'Cupos', value: `**${occupied}/${totalRoles}**`, inline: true },
-  );
+    await sentMessage.startThread({ name: "Inscripciones", autoArchiveDuration: 60 });
 
-  // Dividir roles en partidas de 20
-  const rolesArray = Object.entries(listaRoles);
-  const rolesPerParty = 20;
-  for (let i = 0; i < rolesArray.length; i += rolesPerParty) {
-    const partyNum = Math.floor(i / rolesPerParty) + 1;
-    const partyRoles = rolesArray.slice(i, i + rolesPerParty)
-      .map(([num, rol]) => `${num}. **${rol.toUpperCase()} - (Vacante)**`).join("\n");
-    embed.addFields({ name: `Party ${partyNum}`, value: partyRoles, inline: false });
+    inscripciones[sentMessage.id] = {
+      titulo,
+      roles: listaRoles,
+      jugadores: {},
+      creador: interaction.user.id,
+      cerrado: false,
+      utcInput,
+      utcTimestamp,
+      nota,
+      notaInferior
+    };
+    await guardarDatos();
   }
-  if (notaInferior) {
-    embed.addFields({ name: '\u200B', value: `**${notaInferior}**`, inline: false });
-  }
-
-  //  Usar editReply en lugar de replyOptions + fetchReply
-  const sentMessage = await interaction.editReply({
-    content: tagRol ? `<@&${tagRol.id}>` : undefined,
-    embeds: [embed],
-    allowedMentions: tagRol ? { roles: [tagRol.id] } : undefined
-  });
-
-  await sentMessage.startThread({ name: "Inscripciones", autoArchiveDuration: 60 });
-
-  inscripciones[sentMessage.id] = {
-    titulo,
-    roles: listaRoles,
-    jugadores: {},
-    creador: interaction.user.id,
-    cerrado: false,
-    utcInput,
-    utcTimestamp,
-    nota,
-    notaInferior
-  };
-}
-
 
   // =========================
   // EDITAR INSCRIPCIONES
   // =========================
   if (interaction.commandName === 'editar_inscripcion') {
+    await interaction.deferReply({ ephemeral: true }); // Evita timeout y hace la respuesta privada
+
     const mensajeId = interaction.options.getString('mensaje_id');
     const nuevoTitulo = interaction.options.getString('titulo');
     const nuevoUtcInput = interaction.options.getString('utc');
@@ -122,14 +150,14 @@ if (interaction.commandName === 'inscripciones') {
     const cantidad = interaction.options.getInteger('cantidad');
 
     const insc = inscripciones[mensajeId];
-    if (!insc) return interaction.reply("No encontré esa inscripción.");
+    if (!insc) return interaction.editReply("No encontré esa inscripción.");
     if (interaction.user.id !== insc.creador) {
-      return interaction.reply("Solo el creador puede editar esta inscripción.");
+      return interaction.editReply("Solo el creador puede editar esta inscripción.");
     }
 
     const nuevoUtcTimestamp = nuevoUtcInput ? parseUtcInput(nuevoUtcInput) : null;
     if (nuevoUtcInput && !nuevoUtcTimestamp) {
-      return interaction.reply("Formato UTC inválido. Usa YYYY-MM-DD HH:mm o YYYY-MM-DDTHH:mm.");
+      return interaction.editReply("Formato UTC inválido. Usa YYYY-MM-DD HH:mm o YYYY-MM-DDTHH:mm.");
     }
 
   // =========================
@@ -145,14 +173,15 @@ if (interaction.commandName === 'inscripciones') {
     if (rolesInput && cantidad) {
     const rolesArray = rolesInput.split(",");
     if (rolesArray.length !== cantidad) {
-      return interaction.reply("La cantidad de roles no coincide con el número indicado.");
+      return interaction.editReply("La cantidad de roles no coincide con el número indicado.");
     }
     insc.roles = {};
     rolesArray.forEach((rol, i) => insc.roles[i+1] = rol.trim());
   }
 
   await actualizarEmbed(await interaction.channel.messages.fetch(mensajeId), insc);
-  return interaction.reply("Inscripción actualizada.");
+  await guardarDatos();
+  return interaction.editReply("Inscripción actualizada.");
 }
 
 
@@ -168,6 +197,7 @@ if (interaction.commandName === 'inscripciones') {
     if (interaction.user.id !== data.creador) return interaction.reply("Solo el creador puede resetear la lista.");
 
     data.jugadores = {};
+    await guardarDatos();
     await actualizarEmbed(parentMessage, data);
     return interaction.reply("La lista ha sido reseteada.");
   }
@@ -181,6 +211,7 @@ if (interaction.commandName === 'inscripciones') {
     if (interaction.user.id !== data.creador) return interaction.reply("Solo el creador puede cerrar la lista.");
 
     data.cerrado = true;
+    await guardarDatos();
     return interaction.reply("La lista ha sido cerrada. No se aceptan más inscripciones.");
   }
 
@@ -193,6 +224,7 @@ if (interaction.commandName === 'inscripciones') {
     if (interaction.user.id !== data.creador) return interaction.reply("Solo el creador puede reabrir la lista.");
 
     data.cerrado = false;
+    await guardarDatos();
     return interaction.reply("La lista ha sido reabierta. Ya se aceptan inscripciones nuevamente.");
   }
 });
@@ -212,6 +244,7 @@ client.on('messageCreate', async (message) => {
       const numero = parseInt(contenido.split(" ")[1]);
       if (data.jugadores[numero]?.id === message.author.id) {
         delete data.jugadores[numero];
+        await guardarDatos();
         await actualizarEmbed(parentMessage, data);
         return message.reply(`Has liberado el rol ${numero}.`);
       } else {
@@ -233,6 +266,7 @@ client.on('messageCreate', async (message) => {
           return message.reply("Ya estás inscripto en otro rol. Liberalo primero escribiendo:'Liberar + (Numero que queres liberar) Ejemplo: Liberar 2' si querés cambiar.");
         }
         data.jugadores[numero] = message.author;
+        await guardarDatos();
         await actualizarEmbed(parentMessage, data);
         return message.reply(`Te inscribiste en el lugar ${numero}.`);
       } else {
