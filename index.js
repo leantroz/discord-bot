@@ -1,6 +1,7 @@
 require('dotenv').config();
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
-const fs = require('node:fs');
+const fs = require('node:fs/promises');
+const { existsSync, readFileSync } = require('node:fs');
 
 const client = new Client({
   intents: [
@@ -13,12 +14,12 @@ const client = new Client({
 const PATH_ARCHIVO = './inscripciones.txt';
 
 // Cargar datos al iniciar
-let inscripciones = cargarDatos();
+let inscripciones = {};
 
 function cargarDatos() {
-  if (fs.existsSync(PATH_ARCHIVO)) {
+  if (existsSync(PATH_ARCHIVO)) {
     try {
-      const data = fs.readFileSync(PATH_ARCHIVO, 'utf8');
+      const data = readFileSync(PATH_ARCHIVO, 'utf8');
       return JSON.parse(data);
     } catch (error) {
       console.error("Error al leer el archivo de inscripciones:", error);
@@ -28,15 +29,17 @@ function cargarDatos() {
   return {};
 }
 
-function guardarDatos() {
+inscripciones = cargarDatos();
+
+async function guardarDatos() {
   try {
-    fs.writeFileSync(PATH_ARCHIVO, JSON.stringify(inscripciones, null, 2), 'utf8');
+    await fs.writeFile(PATH_ARCHIVO, JSON.stringify(inscripciones, null, 2), 'utf8');
   } catch (error) {
     console.error("Error al guardar el archivo de inscripciones:", error);
   }
 }
 
-client.on('clientReady', () => {
+client.on('ready', () => {
   console.log(`Bot iniciado como ${client.user.tag}`);
 });
 
