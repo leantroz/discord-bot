@@ -1619,33 +1619,8 @@
     "roles": {
       "1": "1"
     },
-    "jugadores": {},
-    "creador": "247488945217077250",
-    "cerrado": false,
-    "utcInput": null,
-    "utcTimestamp": null,
-    "nota": "1",
-    "notaInferior": "1"
-  },
-  "1506905709583925258": {
-    "titulo": "Causa",
-    "roles": {
-      "1": "Clapper",
-      "2": "Pre Clapper / Stopper",
-      "3": "Shadowcaller",
-      "4": "Rompereinos (Casco de Caballero)",
-      "5": "Puas",
-      "6": "Colmillo",
-      "7": "Colmillo",
-      "8": "Colmillo",
-      "9": "Caza Espiritus",
-      "10": "Guantes Osunas",
-      "11": "Defensivo (Arbol)",
-      "12": "Healer (Nature con W de Briza)",
-      "13": "Sangradora DPS"
-    },
     "jugadores": {
-      "3": {
+      "1": {
         "id": "247488945217077250",
         "bot": false,
         "system": false,
@@ -1680,6 +1655,31 @@
         "guildTagBadgeURL": null
       }
     },
+    "creador": "247488945217077250",
+    "cerrado": false,
+    "utcInput": null,
+    "utcTimestamp": null,
+    "nota": "1",
+    "notaInferior": "1"
+  },
+  "1506905709583925258": {
+    "titulo": "Causa",
+    "roles": {
+      "1": "Clapper",
+      "2": "Pre Clapper / Stopper",
+      "3": "Shadowcaller",
+      "4": "Rompereinos (Casco de Caballero)",
+      "5": "Puas",
+      "6": "Colmillo",
+      "7": "Colmillo",
+      "8": "Colmillo",
+      "9": "Caza Espiritus",
+      "10": "Guantes Osunas",
+      "11": "Defensivo (Arbol)",
+      "12": "Healer (Nature con W de Briza)",
+      "13": "Sangradora DPS"
+    },
+    "jugadores": {},
     "creador": "247488945217077250",
     "cerrado": false,
     "utcInput": "2026-05-20 01:30",
@@ -4590,65 +4590,5 @@
     "utcTimestamp": 1779673500,
     "nota": "Necesito gente solamente para smashear un HO rapido. No habra pelea, no habra nada pero estaremos solos martillando con Goose pareciera.",
     "notaInferior": "Comprense un martillo T7 en MGR"
-  },
-  "1508964745733083166": {
-    "titulo": "Causa",
-    "roles": {
-      "1": "Clapper",
-      "2": "Pre Clapper / Stopper",
-      "3": "Shadowcaller",
-      "4": "Rompereinos (Casco de Caballero)",
-      "5": "Puas",
-      "6": "Colmillo",
-      "7": "Colmillo",
-      "8": "Colmillo",
-      "9": "Caza Espiritus",
-      "10": "Guantes Osunas",
-      "11": "Defensivo (Arbol)",
-      "12": "Healer (Nature con W de Briza)",
-      "13": "Sangradora DPS"
-    },
-    "jugadores": {
-      "3": {
-        "id": "247488945217077250",
-        "bot": false,
-        "system": false,
-        "flags": 128,
-        "username": "kaweshk",
-        "globalName": "Kaweshk",
-        "discriminator": "0",
-        "avatar": "f7cef180afb88f41c105490900dd055b",
-        "banner": null,
-        "accentColor": null,
-        "avatarDecoration": null,
-        "avatarDecorationData": {
-          "asset": "a_a065206df7b011a5510e4e5bca7d49be",
-          "skuId": "1207047014769234001"
-        },
-        "collectibles": {
-          "nameplate": {
-            "skuId": "1447654091240116366",
-            "asset": "nameplates/zodiac/scorpio/",
-            "label": "COLLECTIBLES_ZODIAC_SCORPIO_NP_A11Y",
-            "palette": "violet"
-          }
-        },
-        "primaryGuild": null,
-        "createdTimestamp": 1479076362662,
-        "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
-        "hexAccentColor": null,
-        "tag": "kaweshk",
-        "avatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
-        "displayAvatarURL": "https://cdn.discordapp.com/avatars/247488945217077250/f7cef180afb88f41c105490900dd055b.webp",
-        "bannerURL": null,
-        "guildTagBadgeURL": null
-      }
-    },
-    "creador": "247488945217077250",
-    "cerrado": false,
-    "utcInput": "2026-05-20 01:30",
-    "utcTimestamp": 1779240600,
-    "nota": "asfhafsdha",
-    "notaInferior": "s"
   }
 }
