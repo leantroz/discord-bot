@@ -52,7 +52,7 @@ client.on('interactionCreate', async (interaction) => {
   // CREAR INSCRIPCIONES
   // =========================
   if (interaction.commandName === 'inscripciones') {
-    await interaction.deferReply(); // evita timeout
+    await interaction.deferReply({ ephemeral: true }); // evita timeout y hace la confirmacion privada
 
     const titulo = interaction.options.getString('titulo');
     const cantidad = interaction.options.getInteger('cantidad');
@@ -114,10 +114,15 @@ client.on('interactionCreate', async (interaction) => {
       embed.addFields({ name: '\u200B', value: `**${notaInferior}**`, inline: false });
     }
 
-    const sentMessage = await interaction.editReply({
+    const sentMessage = await interaction.channel.send({
       content: tagRol ? `<@&${tagRol.id}>` : undefined,
       embeds: [embed],
       allowedMentions: tagRol ? { roles: [tagRol.id] } : undefined
+    });
+
+    await interaction.editReply({
+      content: "Inscripción creada.",
+      embeds: []
     });
 
     await sentMessage.startThread({ name: "Inscripciones", autoArchiveDuration: 60 });
