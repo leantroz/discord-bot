@@ -11,6 +11,8 @@ const client = new Client({
   ]
 });
 
+
+// Cargar datos al iniciar
 const PATH_ARCHIVO = './inscripciones.txt';
 
 // Cargar datos al iniciar
@@ -50,7 +52,7 @@ client.on('interactionCreate', async (interaction) => {
   // CREAR INSCRIPCIONES
   // =========================
   if (interaction.commandName === 'inscripciones') {
-    await interaction.deferReply(); // evita timeout
+    await interaction.deferReply({ ephemeral: true }); // evita timeout y hace la confirmacion privada
 
     const titulo = interaction.options.getString('titulo');
     const cantidad = interaction.options.getInteger('cantidad');
@@ -83,26 +85,16 @@ client.on('interactionCreate', async (interaction) => {
     const occupied = 0;
     const estado = 'Abierto';
 
-    // Evitar descripción vacía
-    /* const desc = descriptionLines.length > 0 ? descriptionLines.join("\n") : " ";
-
     const embed = new EmbedBuilder()
       .setTitle(`\u200B${titulo}\u200B`)
       .setColor(0x1F8BFF)
-      .setDescription(desc)
-      .setFooter({ 
-        text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X(Numero que escogiste)'." 
-      }); */
-    const embed = new EmbedBuilder()
-  .setTitle(`\u200B${titulo}\u200B`)
-  .setColor(0x1F8BFF)
-  .setFooter({
-    text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X (Número que escogiste)'."
-  });
+      .setFooter({
+        text: "Para pickear un rol, escribe el número correspondiente, si te equivocaste o queres cambiar de rol, deberás escribir: 'Liberar X (Número que escogiste)'."
+      });
 
-if (descriptionLines.length > 0) {
-  embed.setDescription(descriptionLines.join("\n"));
-}
+    if (descriptionLines.length > 0) {
+      embed.setDescription(descriptionLines.join("\n"));
+    }
     embed.addFields(
       { name: '\u200B', value: '\u200B', inline: false },
       { name: 'Estado', value: `**${estado}**`, inline: true },
@@ -125,7 +117,7 @@ if (descriptionLines.length > 0) {
     const sentMessage = await interaction.channel.send({
       content: tagRol ? `<@&${tagRol.id}>` : undefined,
       embeds: [embed],
-      allowedMentions: { parse: ['roles'] }
+      allowedMentions: tagRol ? { roles: [tagRol.id] } : undefined
     });
 
     await interaction.editReply({
